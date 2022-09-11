@@ -11,6 +11,7 @@ import Logo from '../logos/logo.png';
 import { HiArrowUp, HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 import { Link } from 'react-scroll';
+
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const handleClick = () => setNav(!nav);
@@ -35,7 +36,13 @@ const Navbar = () => {
             About
           </Link>
             </li>
-            <li>Skills</li>
+            <li>
+            <li>
+            <Link to='skills' smooth={true} duration={500}>
+            Skills
+          </Link>
+            </li>
+            </li>
             <li>Projects</li>
             <li>Contact</li>
         </ul>
@@ -55,12 +62,17 @@ const Navbar = () => {
           </Link>
         </li>
         <li className='py-6 text-4xl'>
-          {' '}
           <Link onClick={handleClick} to='about' smooth={true} duration={500}>
             About
           </Link>
         </li>
-            <li className='py-6 text-4xl'>Skills</li>
+            <li className='py-6 text-4xl'>
+            <li className='py-6 text-4xl'>
+          <Link onClick={handleClick} to='skills' smooth={true} duration={500}>
+            Skills
+          </Link>
+        </li>
+            </li>
             <li className='py-6 text-4xl'>Projects</li>
             <li className='py-6 text-4xl'>Contact</li>
         </ul>
