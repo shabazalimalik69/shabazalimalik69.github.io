@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.ab0028b2.css",
-    "main.js": "/static/js/main.b8b9d1e6.js",
+    "main.css": "/static/css/main.88b2d8f2.css",
+    "main.js": "/static/js/main.dbf6002a.js",
     "static/media/Photo.png": "/static/media/Photo.2ca145476271eaac6167.png",
     "static/media/bewakoof.jpeg": "/static/media/bewakoof.7f6faf60e8a4d615026b.jpeg",
     "static/media/sephora.jpeg": "/static/media/sephora.d6d0d960f3c0d09a0737.jpeg",
@@ -13,11 +13,11 @@
     "static/media/css.png": "/static/media/css.69a82c2d9e45c933a9cb.png",
     "static/media/javascript.png": "/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/index.html",
-    "main.ab0028b2.css.map": "/static/css/main.ab0028b2.css.map",
-    "main.b8b9d1e6.js.map": "/static/js/main.b8b9d1e6.js.map"
+    "main.88b2d8f2.css.map": "/static/css/main.88b2d8f2.css.map",
+    "main.dbf6002a.js.map": "/static/js/main.dbf6002a.js.map"
   },
   "entrypoints": [
-    "static/css/main.ab0028b2.css",
-    "static/js/main.b8b9d1e6.js"
+    "static/css/main.88b2d8f2.css",
+    "static/js/main.dbf6002a.js"
   ]
 }
