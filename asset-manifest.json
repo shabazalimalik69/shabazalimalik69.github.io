@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.b61e3780.css",
-    "main.js": "/static/js/main.772e246e.js",
+    "main.js": "/static/js/main.1cd58989.js",
     "static/media/Photo.png": "/static/media/Photo.2ca145476271eaac6167.png",
     "static/media/bewakoof.jpeg": "/static/media/bewakoof.7f6faf60e8a4d615026b.jpeg",
     "static/media/sephora.jpeg": "/static/media/sephora.d6d0d960f3c0d09a0737.jpeg",
@@ -16,10 +16,10 @@
     "static/media/javascript.png": "/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/index.html",
     "main.b61e3780.css.map": "/static/css/main.b61e3780.css.map",
-    "main.772e246e.js.map": "/static/js/main.772e246e.js.map"
+    "main.1cd58989.js.map": "/static/js/main.1cd58989.js.map"
   },
   "entrypoints": [
     "static/css/main.b61e3780.css",
-    "static/js/main.772e246e.js"
+    "static/js/main.1cd58989.js"
   ]
 }
