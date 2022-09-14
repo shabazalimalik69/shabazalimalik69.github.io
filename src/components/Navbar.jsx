@@ -42,12 +42,16 @@ const Navbar = () => {
             </Link>
             </li>
             <li>
+            <Link to='techStack' smooth={true} duration={500}>
+            Tech Stacks
+            </Link>
+            </li>
             <li>
             <Link to='projects' smooth={true} duration={500}>
             Projects
             </Link>
             </li>
-            </li>
+            
             <li>Contact</li>
         </ul>
       </div>
@@ -75,14 +79,17 @@ const Navbar = () => {
             Skills
           </Link>
         </li>
+        <li className='py-6 text-4xl'>
+          <Link onClick={handleClick} to='techStack' smooth={true} duration={500}>
+            Tech Stacks
+          </Link>
+        </li>
            
-            <li className='py-6 text-4xl'>
             <li className='py-6 text-4xl'>
           <Link onClick={handleClick} to='projects' smooth={true} duration={500}>
             Projects
           </Link>
         </li>
-            </li>
             <li className='py-6 text-4xl'>Contact</li>
         </ul>
       </div>
