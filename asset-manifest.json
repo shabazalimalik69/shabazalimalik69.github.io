@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.2d0f7d8c.css",
-    "main.js": "/static/js/main.e5e4068f.js",
-    "static/media/Photo.png": "/static/media/Photo.2ca145476271eaac6167.png",
+    "main.css": "/static/css/main.83010840.css",
+    "main.js": "/static/js/main.4fa9436d.js",
+    "static/media/image.png": "/static/media/image.82fe71e54767a7ea48c3.png",
     "static/media/bewakoof.jpeg": "/static/media/bewakoof.7f6faf60e8a4d615026b.jpeg",
     "static/media/sephora.jpeg": "/static/media/sephora.d6d0d960f3c0d09a0737.jpeg",
     "static/media/communication.png": "/static/media/communication.07c9a3c166bd1ad6e686.png",
@@ -15,11 +15,11 @@
     "static/media/css.png": "/static/media/css.69a82c2d9e45c933a9cb.png",
     "static/media/javascript.png": "/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/index.html",
-    "main.2d0f7d8c.css.map": "/static/css/main.2d0f7d8c.css.map",
-    "main.e5e4068f.js.map": "/static/js/main.e5e4068f.js.map"
+    "main.83010840.css.map": "/static/css/main.83010840.css.map",
+    "main.4fa9436d.js.map": "/static/js/main.4fa9436d.js.map"
   },
   "entrypoints": [
-    "static/css/main.2d0f7d8c.css",
-    "static/js/main.e5e4068f.js"
+    "static/css/main.83010840.css",
+    "static/js/main.4fa9436d.js"
   ]
 }
