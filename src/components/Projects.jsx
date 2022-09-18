@@ -14,7 +14,7 @@ const Projects = () => {
           Projects
         </p>
       </div>
-      <div className='grid sm:grid-cols-1 md:grid-cols-3 gap-8'>
+      <div className='grid sm:grid-cols-1 md:grid-cols-2 gap-8'>
       <div
       style={{ backgroundImage: `url(${bewakoof})` }}
       className='shadow-lg shadow-[#040c16] group container py-10 px-10 rounded-md flex justify-center items-center mx-auto content-div'
@@ -25,14 +25,14 @@ const Projects = () => {
         HTML, CSS, JS
       </h3>
       <p className='text-justify text-black'>BEWAKOOF is an Online Shopping site for Men and Women Clothing...</p>
-      <div className='pt-8 flex text-center'>
+      <div className='pt-8 flex justify-around'>
         <a href='https://jazzy-cocada-65d352.netlify.app/' target="_blank">
           <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-md'>
             Deploy
           </button>
         </a>
         <a href='https://github.com/11-DEEPAK-KUMAR-11/Bewakoof_website' target="_blank">
-          <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-md'>
+          <button className='text-center rounded-lg px-4  py-3 m-2 bg-white text-gray-700 font-bold text-md'>
             GitHub
           </button>
         </a>
@@ -50,7 +50,7 @@ const Projects = () => {
         React Js
       </h3>
       <p className='text-justify text-black'>SurveyMonkey is the world's leading People Powered Data platform...</p>
-      <div className='pt-8 flex text-center'>
+      <div className='pt-8 flex justify-around'>
         <a href='https://isnt-shabazalimalik69-gmail-com-awesome-52259.netlify.app/' target="_blank">
           <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-md'>
             Deploy
@@ -76,7 +76,7 @@ const Projects = () => {
       </h3>
       
       <p className='text-justify text-black'>SEPHORA is a French multinational retailer of personal care and beauty products..</p>
-      <div className='pt-8 flex text-center'>
+      <div className='pt-8 flex justify-around'>
         <a href='https://stellular-fox-5ba872.netlify.app/' target="_blank">
           <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-md'>
             Deploy

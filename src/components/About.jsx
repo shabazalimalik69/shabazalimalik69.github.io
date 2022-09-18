@@ -1,4 +1,6 @@
 import React from 'react';
+import { HiArrowUp } from 'react-icons/hi';
+import Image from '../logos/img5.png';
 
 const About = () => {
   return (
@@ -10,16 +12,32 @@ const About = () => {
               About
             </p>
           </div>
-          <div></div>
           </div>
           <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
             <div className='sm:text-center text-lg font-bold'>
               <p className='text-amber-500'>Hi, I'm Shabaz, nice to meet you. Please take a look around.</p>
+              <img className='py-6 h-10/12 w-4/5 rounded-full'  src={Image} alt="Photo" />
             </div>
             <div>
               <p className='text-md text-justify text-emerald-500'>I am skilled at MERN Stack, HTML, CSS, JavaScript, Data Structure and Algorithm and a good record with project success.Professional, capable and motivated individual who consistently performs in challenging environments.Able to meet strict deadlines and willing to work as a key player in challenging and creative environment.My objectives are increasing my knowledge in computer science fields and new technologies especially, web development and web design field.Always looking forward to learn new technologies. What would you do if you had
               a software expert available at your fingertips?</p>  
+              <br/>
+              <br/>
+              <br/>
+              <br/>
+              <br/>
+              <div class="px-10"  >
+            <button className='text-white group border-2 px-4 py-3 my-2 rounded-md flex items-center hover:bg-green-500 hover:border-[#153441] hover:text-rose-900'>
+            <a href='https://drive.google.com/file/d/1zAX5byv9xyxmRRTfqjJ1V5ktP0Tau55x/view?usp=sharing' smooth={true} duration={500} rel="noreferrer" target="_blank">
+            Download Resume
+          </a>
+            <span className='group-hover:rotate-90 duration-300'>
+             <HiArrowUp/> 
+             </span>
+             </button>
+        </div>
             </div>
+            
           </div>
       </div>
     </div>

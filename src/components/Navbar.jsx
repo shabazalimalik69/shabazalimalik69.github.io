@@ -27,32 +27,32 @@ const Navbar = () => {
        <div>
         <ul className='hidden md:flex'>
             <li>
-            <Link to='home' smooth={true} duration={500}>
+            <Link to='home'className="text-yellow-500 font-bold" smooth={true} duration={500}>
             Home
           </Link>
             </li>
             <li>
-            <Link to='about' smooth={true} duration={500}>
+            <Link to='about' className="text-yellow-500 font-bold" smooth={true} duration={500}>
             About
           </Link>
             </li>
             <li>
-            <Link to='skills' smooth={true} duration={500}>
-            Skills
-            </Link>
-            </li>
-            <li>
-            <Link to='techStack' smooth={true} duration={500}>
+            <Link to='skills' className="text-yellow-500 font-bold" smooth={true} duration={500}>
             Tech Stacks
             </Link>
             </li>
             <li>
-            <Link to='projects' smooth={true} duration={500}>
+            <Link to='techStack' className="text-yellow-500 font-bold" smooth={true} duration={500}>
+            Skills
+            </Link>
+            </li>
+            <li>
+            <Link to='projects' className="text-yellow-500 font-bold"   smooth={true} duration={500}>
             Projects
             </Link>
             </li>
             <li>
-            <Link to='contact' smooth={true} duration={500}>
+            <Link to='contact' className="text-yellow-500 font-bold" smooth={true} duration={500}>
             Contact
             </Link>
             </li>
@@ -68,32 +68,32 @@ const Navbar = () => {
       <div className={!nav? "hidden" : "absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center"}>
       <ul>
       <li className='py-6 text-4xl'>
-          <Link onClick={handleClick} to='home' smooth={true} duration={500}>
+          <Link onClick={handleClick} to='home' className="text-green-500" smooth={true} duration={500}>
             Home
           </Link>
         </li>
         <li className='py-6 text-4xl'>
-          <Link onClick={handleClick} to='about' smooth={true} duration={500}>
+          <Link onClick={handleClick} to='about' className="text-green-500" smooth={true} duration={500}>
             About
           </Link>
         </li>
             <li className='py-6 text-4xl'>
-          <Link onClick={handleClick} to='skills' smooth={true} duration={500}>
-            Skills
-          </Link>
-        </li>
-        <li className='py-6 text-4xl'>
-          <Link onClick={handleClick} to='techStack' smooth={true} duration={500}>
+          <Link onClick={handleClick} to='skills' className="text-green-500" smooth={true} duration={500}>
             Tech Stacks
           </Link>
         </li>
+        <li className='py-6 text-4xl'>
+          <Link onClick={handleClick} to='techStack' className="text-green-500" smooth={true} duration={500}>
+           Skills
+          </Link>
+        </li>
          <li className='py-6 text-4xl'>
-          <Link onClick={handleClick} to='projects' smooth={true} duration={500}>
+          <Link onClick={handleClick} to='projects' className="text-green-500" smooth={true} duration={500}>
             Projects
           </Link>
         </li>
         <li className='py-6 text-4xl'>
-          <Link onClick={handleClick} to='contact' smooth={true} duration={500}>
+          <Link onClick={handleClick} to='contact' className="text-green-500" smooth={true} duration={500}>
             Contact
           </Link>
         </li>
@@ -138,7 +138,7 @@ const Navbar = () => {
           <li className='w-[140px] h-[40px] flex justify-between items-center ml-[-95px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
             <a
               className='flex justify-between items-center w-full text-gray-300'
-              href='https://drive.google.com/file/d/1m2VI06Q1ooA5e9cRg709tTnh3J8X2LTT/view?usp=sharing' rel="noreferrer" target="_blank"
+              href='https://drive.google.com/file/d/1zAX5byv9xyxmRRTfqjJ1V5ktP0Tau55x/view?usp=sharing' rel="noreferrer" target="_blank"
             >
               RESUME <HiArrowUp/> <BsFillPersonLinesFill size={20} />
             </a>

@@ -16,9 +16,9 @@ const Contact = () => {
         </form>
         </div>
        
-        <div className='px-10 text-center  sm:text-justify text-md text-green-600 font-bold'>
+        <div className='px-10 text-center  sm:text-justify text-md text-white '>
         <h4>Mobile: +91-7051819135</h4>
-            <h4>Email: shabazalimalik69@gmail.com</h4>
+            <h4>Email:shabazalimalik69@gmail.com</h4>
             <h3>Address: Baramulla, J&K, India</h3>
             </div>
             <div>
