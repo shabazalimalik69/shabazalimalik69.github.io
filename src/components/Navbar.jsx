@@ -125,12 +125,12 @@ const Navbar = () => {
           </li>
           <li className='w-[140px] h-[40px] flex justify-between items-center ml-[-95px] hover:ml-[-10px] duration-300 bg-blue-600 '>
           <a className='flex justify-between items-center w-full text-gray-300'
-          href="https://twitter.com/home" rel="noreferrer" target="_blank">twitter <FaTwitter size={20} /> </a>
+          href="https://twitter.com/shabazalimalik" rel="noreferrer" target="_blank">twitter <FaTwitter size={20} /> </a>
         </li>
           <li className='w-[140px] h-[40px] flex justify-between items-center ml-[-95px] hover:ml-[-10px] duration-300 bg-[#333333]'>
             <a
               className='flex justify-between items-center w-full text-gray-300'
-              href='https://github.com/' rel="noreferrer" target="_blank"
+              href='https://github.com/shabazalimalik69' rel="noreferrer" target="_blank"
             >
               Github <FaGithub size={20} />
             </a>
