@@ -9,7 +9,7 @@ import GitHub from '../logos/gitHub.png';
  import Tailwind from '../logos/tailwind.png';
 import Mongo from '../logos/mongo.png';
 import Redux from '../logos/redux.png';
-import Typescript from '../logos/typescript.png';
+import Git from '../logos/git.png';
 import Postman from '../logos/postman.png';
 import Npm from '../logos/npm.png';
 
@@ -39,6 +39,10 @@ const Skills = () => {
                   <p className='my-4'>React</p>
               </div>
               <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                  <img className='w-10 mx-auto' src={Redux} alt="Redux icon" />
+                  <p className='my-4'>Redux</p>
+              </div>
+              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                   <img className='w-10 mx-auto' src={Node} alt="HTML icon" />
                   <p className='my-4'>Node JS</p>
               </div>
@@ -47,12 +51,8 @@ const Skills = () => {
                   <p className='my-4'>Mongo DB</p>
               </div>
               <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                  <img className='w-10 mx-auto' src={Redux} alt="Redux icon" />
-                  <p className='my-4'>Redux</p>
-              </div>
-              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                  <img className='w-10 mx-auto' src={Typescript} alt="TypeScript icon" />
-                  <p className='my-4'>TypeScript</p>
+                  <img className='w-10 mx-auto' src={Git} alt="TypeScript icon" />
+                  <p className='my-4'>Git</p>
               </div>
               <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                   <img className='w-10 mx-auto' src={GitHub} alt="HTML icon" />
