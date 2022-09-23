@@ -1,5 +1,6 @@
 import About from "./components/About";
 import Contact from "./components/Contact";
+import GitHubStat from "./components/GitHubStat";
 import Home from "./components/Home";
 import Navbar from "./components/Navbar";
 import Projects from "./components/Projects";
@@ -15,6 +16,7 @@ function App() {
        <TechStack/>
        <Skills/>
        <Projects/>
+       <GitHubStat/>
        <Contact/>
       </div>
     );
