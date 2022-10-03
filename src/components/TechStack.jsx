@@ -12,6 +12,9 @@ import Redux from '../logos/redux.png';
 import Git from '../logos/git.png';
 import Postman from '../logos/postman.png';
 import Npm from '../logos/npm.png';
+import Chakra from '../logos/chakra.png';
+import Heroku from '../logos/heroku.png';
+import Netlify from '../logos/netlify.png';
 
 const Skills = () => {
   return (
@@ -69,6 +72,18 @@ const Skills = () => {
               <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                   <img className='my-4 w-10 mx-auto' src={Tailwind} alt="HTML icon" />
                   <p className='my-6'>Tailwind css</p>
+              </div>
+              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                  <img className='my-4 w-10 mx-auto' src={Chakra} alt="HTML icon" />
+                  <p className='my-6'>Chakra UI</p>
+              </div>
+              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                  <img className='my-4 w-10 mx-auto' src={Heroku} alt="HTML icon" />
+                  <p className='my-6'>Heroku</p>
+              </div>
+              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                  <img className='my-4 w-10 mx-auto' src={Netlify} alt="HTML icon" />
+                  <p className='my-6'>netlify</p>
               </div>
           </div>
       </div>
