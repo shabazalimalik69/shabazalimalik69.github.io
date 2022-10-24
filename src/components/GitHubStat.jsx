@@ -11,10 +11,10 @@ const GitHubStat = () => {
             <h1 className='text-orange-800 font-bold text-lg '>2000+</h1>
             </div>
         <div className='flex items-center justify-center  w-[65px] h-[65px] rounded-full border-4 border-green-800 opacity-100 hover:opacity-80 '>
-            <h1 className='text-orange-800 font-bold text-lg'>276+</h1>
+            <h1 className='text-orange-800 font-bold text-lg'>276</h1>
         </div>
         <div className='flex items-center justify-center  w-[65px] h-[65px] rounded-full border-4 border-blue-800 opacity-100 hover:opacity-80'>
-            <h1 className='text-orange-800 font-bold text-lg'>15+</h1>
+            <h1 className='text-orange-800 font-bold text-lg'>15</h1>
         </div>
         <div className='flex items-center justify-center w-[65px] h-[65px] rounded-full border-4 border-green-800 opacity-100 hover:opacity-80 '>
             <h1 className='text-orange-800 font-bold text-lg'>100+</h1>

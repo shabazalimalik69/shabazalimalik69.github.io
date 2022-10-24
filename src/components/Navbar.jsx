@@ -11,7 +11,7 @@ import Logo from '../logos/logo.png';
 import { HiArrowUp, HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 import { Link } from 'react-scroll';
-
+import resume from './Resume/Shabaz_Malik_Resume.pdf'
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const handleClick = () => setNav(!nav);
@@ -56,6 +56,11 @@ const Navbar = () => {
             Contact
             </Link>
             </li>
+            <li>
+            <a href={resume} className="text-yellow-500 font-bold" download={true} >
+           Resume
+            </a>
+            </li>
         </ul>
       </div>
 
@@ -96,6 +101,11 @@ const Navbar = () => {
           <Link onClick={handleClick} to='contact' className="text-green-500" smooth={true} duration={500}>
             Contact
           </Link>
+        </li>
+        <li className='py-6 text-4xl'>
+          <a onClick={handleClick} href={resume} className="text-green-500" download={true} >
+            Resume
+          </a>
         </li>
         </ul>
       </div>
@@ -138,7 +148,7 @@ const Navbar = () => {
           <li className='w-[140px] h-[40px] flex justify-between items-center ml-[-95px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
             <a
               className='flex justify-between items-center w-full text-gray-300'
-              href='https://drive.google.com/file/d/1b3xw03DgPc9kFVisuXLwHGRAxQnvLphz/view?usp=sharing' rel="noreferrer" target="_blank"
+              href={resume} download={true}
             >
               RESUME <HiArrowUp/> <BsFillPersonLinesFill size={20} />
             </a>

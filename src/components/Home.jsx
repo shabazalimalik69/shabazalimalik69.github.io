@@ -1,6 +1,7 @@
 import React from 'react';
 import { HiArrowUp } from 'react-icons/hi';
 import Image from '../logos/img4.png';
+import resume from './Resume/Shabaz_Malik_Resume.pdf'
 
 const Home = () => {
   return (
@@ -15,7 +16,7 @@ const Home = () => {
             </h6>
         <div>
             <button className='text-white group border-2 px-6 py-3 my-2 rounded-md flex items-center hover:bg-green-500 hover:border-[#153441] hover:text-rose-900'>
-            <a href='https://drive.google.com/file/d/1b3xw03DgPc9kFVisuXLwHGRAxQnvLphz/view?usp=sharing' smooth={true} duration={500} rel="noreferrer" target="_blank">
+            <a href={resume} download={true}>
             Download Resume
           </a>
             <span className='group-hover:rotate-90 duration-300'>

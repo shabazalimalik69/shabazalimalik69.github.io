@@ -8,6 +8,7 @@ import Skills from "./components/Skills";
 import TechStack from "./components/TechStack";
 
 function App() {
+  document.title="Shabaz Ali Malik - Full Stack Web Developer"
     return (
       <div>
        <Navbar/>
