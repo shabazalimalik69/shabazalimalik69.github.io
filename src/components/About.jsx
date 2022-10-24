@@ -1,5 +1,5 @@
 import React from 'react';
-import { HiArrowUp } from 'react-icons/hi';
+import { HiArrowDown } from 'react-icons/hi';
 import Image from '../logos/img5.png';
 import CV from './Resume/Shabaz_Malik_Cv.pdf'
 
@@ -26,8 +26,11 @@ const About = () => {
             <a href={CV} download={true}>
             Download CV
           </a>
-            <span className='group-hover:rotate-90 duration-300'>
-             <HiArrowUp/> 
+          {/* <span className='group-hover:rotate-90 duration-300'>
+             <HiArrowDown/> 
+             </span> */}
+            <span>
+             <HiArrowDown/> 
              </span>
              </button>
         </div> 

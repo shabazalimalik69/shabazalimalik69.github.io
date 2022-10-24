@@ -8,7 +8,7 @@ import {
   FaTwitter
   } from 'react-icons/fa';
 import Logo from '../logos/logo.png';
-import { HiArrowUp, HiOutlineMail } from 'react-icons/hi';
+import { HiArrowDown, HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 import { Link } from 'react-scroll';
 import resume from './Resume/Shabaz_Malik_Resume.pdf'
@@ -57,8 +57,8 @@ const Navbar = () => {
             </Link>
             </li>
             <li>
-            <a href={resume} className="text-yellow-500 font-bold" download={true} >
-           Resume
+            <a href={resume} className="flex justify-between items-center text-yellow-500 font-bold" download={true} >
+           Resume <HiArrowDown/> 
             </a>
             </li>
         </ul>
@@ -103,8 +103,8 @@ const Navbar = () => {
           </Link>
         </li>
         <li className='py-6 text-4xl'>
-          <a onClick={handleClick} href={resume} className="text-green-500" download={true} >
-            Resume
+          <a onClick={handleClick} href={resume} className="flex justify-between items-center text-green-500" download={true} >
+            Resume <HiArrowDown/> 
           </a>
         </li>
         </ul>
@@ -150,7 +150,7 @@ const Navbar = () => {
               className='flex justify-between items-center w-full text-gray-300'
               href={resume} download={true}
             >
-              RESUME <HiArrowUp/> <BsFillPersonLinesFill size={20} />
+              RESUME <HiArrowDown/> <BsFillPersonLinesFill size={20} />
             </a>
           </li>
        </ul>

@@ -1,5 +1,5 @@
 import React from 'react';
-import { HiArrowUp } from 'react-icons/hi';
+import { HiArrowDown} from 'react-icons/hi';
 import Image from '../logos/img4.png';
 import resume from './Resume/Shabaz_Malik_Resume.pdf'
 
@@ -19,8 +19,8 @@ const Home = () => {
             <a href={resume} download={true}>
             Download Resume
           </a>
-            <span className='group-hover:rotate-90 duration-300'>
-             <HiArrowUp/> 
+            <span>
+             <HiArrowDown/> 
              </span>
              </button>
         </div>
