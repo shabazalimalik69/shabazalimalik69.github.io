@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.c6ebd085.css",
-    "main.js": "/static/js/main.b68f3621.js",
+    "main.js": "/static/js/main.c62e2953.js",
     "static/media/img5.png": "/static/media/img5.87c7c0762c078c7fdc86.png",
     "static/media/img4.png": "/static/media/img4.39f1af6527fb678d9ff6.png",
     "static/media/sephora.jpg": "/static/media/sephora.3b23bd857bea4989bead.jpg",
@@ -20,10 +20,10 @@
     "static/media/javascript.png": "/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/index.html",
     "main.c6ebd085.css.map": "/static/css/main.c6ebd085.css.map",
-    "main.b68f3621.js.map": "/static/js/main.b68f3621.js.map"
+    "main.c62e2953.js.map": "/static/js/main.c62e2953.js.map"
   },
   "entrypoints": [
     "static/css/main.c6ebd085.css",
-    "static/js/main.b68f3621.js"
+    "static/js/main.c62e2953.js"
   ]
 }
