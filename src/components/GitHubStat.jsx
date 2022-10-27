@@ -6,38 +6,22 @@ const GitHubStat = () => {
     <div name='githubstat' className=' w-full h-full py-20  bg-[#0a192f] text-gray-300'>
         <h1 className='text-center font-bold py-8 text-2xl'>GitHub Statistics</h1>
        
-       <div className='grid grid-cols-4 gap--10 sm:grid-cols-4 shadow-lg rounded-lg bg-[#153441] mx-auto w-11/12  items-center justify-items-center py-6 grid-rows-2'>
-        <div className='flex items-center justify-center gap-x-1  w-[65px] h-[65px] rounded-full border-4 border-blue-800  opacity-100 hover:opacity-80 '>
-            <h1 className='text-orange-800 font-bold text-lg '>2000+</h1>
-            </div>
-        <div className='flex items-center justify-center  w-[65px] h-[65px] rounded-full border-4 border-green-800 opacity-100 hover:opacity-80 '>
-            <h1 className='text-orange-800 font-bold text-lg'>276</h1>
-        </div>
-        <div className='flex items-center justify-center  w-[65px] h-[65px] rounded-full border-4 border-blue-800 opacity-100 hover:opacity-80'>
-            <h1 className='text-orange-800 font-bold text-lg'>15</h1>
-        </div>
-        <div className='flex items-center justify-center w-[65px] h-[65px] rounded-full border-4 border-green-800 opacity-100 hover:opacity-80 '>
-            <h1 className='text-orange-800 font-bold text-lg'>100+</h1>
-        </div>
-        <div>
-            <h1 className=' text-blue-800 font-bold text-center text-lg'>Hours</h1>
-            <p className=' text-center text-xs text-amber-500'>of coding</p>
-        </div>
-        <div>
-            <h1 className='text-green-800 font-bold text-center text-lg' >Git</h1>
-            <p className=' text-center text-xs text-amber-500'>Commits</p>
-        </div>
-        <div>
-            <h1 className=' text-blue-800 font-bold text-center text-lg'>Projects</h1>
-            <p className=' text-center text-xs text-amber-500'>Done</p>
-        </div>
-        <div>
-            <h1 className='text-green-800 font-bold text-center text-lg'>Hours</h1>
-            <p className=' text-center text-xs text-center text-amber-500'>of soft skills sessions</p>
-        </div>
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-y-10 gap-x-4 mx-auto w-4/5 py-10 ">
+        <a href="https://github.com/sombir5?tab=repositories" title="Profile">
+          <img
+            src="https://github-readme-stats.vercel.app/api?username=sombir5&show_icons=true&custom_title=My%20GitHub%20Stats&border_radius=0"
+            alt="Github Stats"
+          />
+        </a>
+        <a href="https://github.com/sombir5?tab=repositories" title="Profile">
+          <img
+            src="https://github-readme-streak-stats.herokuapp.com/?user=shabazalimalik69&border_radius=0"
+            alt="shabazalimalik69"
+          />
+        </a>
+      </div>
        
-       </div>
-        <div className='w-11/12 mx-auto sm:flex items-center justify-center py-10 '>
+        <div className='w-11/12 mx-auto py-20 sm:flex items-center justify-center '>
         <GitHubCalendar  username="shabazalimalik69" />
         </div> 
     </div>
