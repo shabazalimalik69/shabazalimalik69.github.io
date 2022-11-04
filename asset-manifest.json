@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.017b0e3c.css",
-    "main.js": "/static/js/main.4ef69dd6.js",
+    "main.css": "/static/css/main.1710d124.css",
+    "main.js": "/static/js/main.b7bc3106.js",
     "static/media/img5.png": "/static/media/img5.87c7c0762c078c7fdc86.png",
     "static/media/Shabaz_Malik_Cv.pdf": "/static/media/Shabaz_Malik_Cv.8575d4ed71cf4ea46b95.pdf",
     "static/media/img4.png": "/static/media/img4.39f1af6527fb678d9ff6.png",
@@ -21,11 +21,11 @@
     "static/media/redux.png": "/static/media/redux.b3b939c66aecf7d53967.png",
     "static/media/javascript.png": "/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/index.html",
-    "main.017b0e3c.css.map": "/static/css/main.017b0e3c.css.map",
-    "main.4ef69dd6.js.map": "/static/js/main.4ef69dd6.js.map"
+    "main.1710d124.css.map": "/static/css/main.1710d124.css.map",
+    "main.b7bc3106.js.map": "/static/js/main.b7bc3106.js.map"
   },
   "entrypoints": [
-    "static/css/main.017b0e3c.css",
-    "static/js/main.4ef69dd6.js"
+    "static/css/main.1710d124.css",
+    "static/js/main.b7bc3106.js"
   ]
 }
