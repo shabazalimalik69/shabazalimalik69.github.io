@@ -6,7 +6,7 @@ import Communication from '../logos/communication.png';
 
 const TechStack = () => {
   return (
-    <div name="techStack" className='w-full h-full py-20  bg-[#153441]'>
+    <div name="techStack" className='w-full h-full py-20  bg-[#263d5e]'>
       <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
           <div>
               <p className='text-4xl py-8 text-white font-bold text-center'>Skills</p>

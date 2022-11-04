@@ -27,37 +27,37 @@ const Navbar = () => {
        <div>
         <ul className='hidden md:flex'>
             <li>
-            <Link to='home'className="text-yellow-500 font-bold" smooth={true} duration={500}>
+            <Link to='home'className="text-white font-bold" smooth={true} duration={500}>
             Home
           </Link>
             </li>
             <li>
-            <Link to='about' className="text-yellow-500 font-bold" smooth={true} duration={500}>
+            <Link to='about' className="text-white font-bold" smooth={true} duration={500}>
             About
           </Link>
             </li>
             <li>
-            <Link to='skills' className="text-yellow-500 font-bold" smooth={true} duration={500}>
+            <Link to='skills' className="text-white font-bold" smooth={true} duration={500}>
             Tech Stacks
             </Link>
             </li>
             <li>
-            <Link to='techStack' className="text-yellow-500 font-bold" smooth={true} duration={500}>
+            <Link to='techStack' className="text-white font-bold" smooth={true} duration={500}>
             Skills
             </Link>
             </li>
             <li>
-            <Link to='projects' className="text-yellow-500 font-bold"   smooth={true} duration={500}>
+            <Link to='projects' className="text-white font-bold"   smooth={true} duration={500}>
             Projects
             </Link>
             </li>
             <li>
-            <Link to='contact' className="text-yellow-500 font-bold" smooth={true} duration={500}>
+            <Link to='contact' className="text-white font-bold" smooth={true} duration={500}>
             Contact
             </Link>
             </li>
             <li>
-            <a href={resume} className="flex justify-between items-center text-yellow-500 font-bold" download={true} >
+            <a href={resume} className="flex justify-between items-center text-white font-bold" download={true} >
            Resume <HiArrowDown/> 
             </a>
             </li>

@@ -3,7 +3,7 @@ import GitHubCalendar from 'react-github-calendar';
 
 const GitHubStat = () => {
   return (
-    <div name='githubstat' className=' w-full h-full py-20  bg-[#0a192f] text-gray-300'>
+    <div name='githubstat' className=' w-full h-full py-20  bg-[#293c42] text-gray-300'>
         <h1 className='text-center font-bold py-8 text-2xl'>GitHub Statistics</h1>
        
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-y-10 gap-x-4 mx-auto w-4/5 py-10 ">
