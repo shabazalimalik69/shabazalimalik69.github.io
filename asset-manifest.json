@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.2fa8e254.css",
-    "main.js": "/static/js/main.0b2024b6.js",
-    "static/media/Shabaz_Malik_Resume.pdf": "/static/media/Shabaz_Malik_Resume.ef055c8189c3087ab44c.pdf",
+    "main.js": "/static/js/main.a6105c9b.js",
+    "static/media/Shabaz_Malik_Resume.pdf": "/static/media/Shabaz_Malik_Resume.ddbe09b7d92a06bd4b7f.pdf",
     "static/media/sephora.jpg": "/static/media/sephora.3b23bd857bea4989bead.jpg",
     "static/media/harvest.jpg": "/static/media/harvest.3e54ebad5fa228e1c217.jpg",
     "static/media/surmonkey.jpg": "/static/media/surmonkey.1eae50564d6d7b9912c0.jpg",
@@ -22,10 +22,10 @@
     "static/media/javascript.png": "/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/index.html",
     "main.2fa8e254.css.map": "/static/css/main.2fa8e254.css.map",
-    "main.0b2024b6.js.map": "/static/js/main.0b2024b6.js.map"
+    "main.a6105c9b.js.map": "/static/js/main.a6105c9b.js.map"
   },
   "entrypoints": [
     "static/css/main.2fa8e254.css",
-    "static/js/main.0b2024b6.js"
+    "static/js/main.a6105c9b.js"
   ]
 }
