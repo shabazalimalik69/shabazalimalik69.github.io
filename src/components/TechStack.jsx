@@ -16,72 +16,72 @@ import Chakra from '../logos/chakra.png';
 import Heroku from '../logos/heroku.png';
 import Netlify from '../logos/netlify.png';
 
-const Skills = () => {
+const  TechStack = () => {
   return (
-    <div name='skills' className='w-full h-full py-20 bg-[#263d5e] text-gray-300'>
+    <div name='techStacks' className='w-full h-full py-20 bg-[#293c42] text-gray-300'>
       <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
           <div>
               <p className='text-4xl py-8 font-bold text-center'>Tech Stacks</p>
           </div>
 
           <div className='w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8'>
-              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                  <img className='w-10 mx-auto' src={HTML} alt="HTML icon" />
+              <div className='shadow-md rounded-md bg-[#565f69] shadow-[#040c16] hover:scale-110 duration-500'>
+                  <img className='w-10 my-4 mx-auto' src={HTML} alt="HTML icon" />
                   <p className='my-4'>HTML</p>
               </div>
-              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                  <img className='w-10 mx-auto' src={CSS} alt="HTML icon" />
+              <div className='shadow-md rounded-md bg-[#565f69] shadow-[#040c16] hover:scale-110 duration-500'>
+                  <img className='w-10 my-4 mx-auto' src={CSS} alt="HTML icon" />
                   <p className='my-4'>CSS</p>
               </div>
-              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                  <img className='w-10 mx-auto' src={JavaScript} alt="HTML icon" />
+              <div className='shadow-md rounded-md bg-[#565f69] shadow-[#040c16] hover:scale-110 duration-500'>
+                  <img className='w-10 my-4 mx-auto' src={JavaScript} alt="HTML icon" />
                   <p className='my-4'>JavaScript</p>
               </div>
-              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                  <img className='w-10 mx-auto' src={ReactImg} alt="HTML icon" />
+              <div className='shadow-md rounded-md bg-[#565f69] shadow-[#040c16] hover:scale-110 duration-500'>
+                  <img className='w-10 my-4 mx-auto' src={ReactImg} alt="HTML icon" />
                   <p className='my-4'>React</p>
               </div>
-              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                  <img className='w-10 mx-auto' src={Redux} alt="Redux icon" />
+              <div className='shadow-md rounded-md bg-[#565f69] shadow-[#040c16] hover:scale-110 duration-500'>
+                  <img className='w-10 my-4 mx-auto' src={Redux} alt="Redux icon" />
                   <p className='my-4'>Redux</p>
               </div>
-              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                  <img className='w-10 mx-auto' src={Node} alt="HTML icon" />
+              <div className='shadow-md rounded-md bg-[#565f69] shadow-[#040c16] hover:scale-110 duration-500'>
+                  <img className='w-10 my-4 mx-auto' src={Node} alt="HTML icon" />
                   <p className='my-4'>Node JS</p>
               </div>
-              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                  <img className='w-10 mx-auto' src={Mongo} alt="HTML icon" />
+              <div className='shadow-md rounded-md bg-[#565f69] shadow-[#040c16] hover:scale-110 duration-500'>
+                  <img className='w-10 my-4 mx-auto' src={Mongo} alt="HTML icon" />
                   <p className='my-4'>Mongo DB</p>
               </div>
-              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                  <img className='w-10 mx-auto' src={Git} alt="TypeScript icon" />
+              <div className='shadow-md rounded-md bg-[#565f69] shadow-[#040c16] hover:scale-110 duration-500'>
+                  <img className='w-10 my-4 mx-auto' src={Git} alt="TypeScript icon" />
                   <p className='my-4'>Git</p>
               </div>
-              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                  <img className='w-10 mx-auto' src={GitHub} alt="HTML icon" />
+              <div className='shadow-md rounded-md bg-[#565f69] shadow-[#040c16] hover:scale-110 duration-500'>
+                  <img className='w-10 my-4 mx-auto' src={GitHub} alt="HTML icon" />
                   <p className='my-4'>GitHub</p>
               </div>
-              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                  <img className='w-10 mx-auto' src={Postman} alt="Postman icon" />
+              <div className='shadow-md rounded-md rounded-md bg-[#565f69] shadow-[#040c16] hover:scale-110 duration-500'>
+                  <img className='w-10 my-4 mx-auto' src={Postman} alt="Postman icon" />
                   <p className='my-4'>Postman</p>
               </div>
-              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                  <img className='w-10 py-3 mx-auto' src={Npm} alt="npm icon" />
+              <div className='shadow-md rounded-md bg-[#565f69] shadow-[#040c16] hover:scale-110 duration-500'>
+                  <img className='w-10 my-4 py-3 mx-auto' src={Npm} alt="npm icon" />
                   <p className='my-4'>npm</p>
               </div>
-              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+              <div className='shadow-md rounded-md bg-[#565f69] shadow-[#040c16] hover:scale-110 duration-500'>
                   <img className='my-4 w-10 mx-auto' src={Tailwind} alt="HTML icon" />
                   <p className='my-6'>Tailwind css</p>
               </div>
-              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+              <div className='shadow-md rounded-md bg-[#565f69] shadow-[#040c16] hover:scale-110 duration-500'>
                   <img className='my-4 w-10 mx-auto' src={Chakra} alt="HTML icon" />
                   <p className='my-6'>Chakra UI</p>
               </div>
-              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+              <div className='shadow-md rounded-md bg-[#565f69] shadow-[#040c16] hover:scale-110 duration-500'>
                   <img className='my-4 w-10 mx-auto' src={Heroku} alt="HTML icon" />
                   <p className='my-6'>Heroku</p>
               </div>
-              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+              <div className='shadow-md rounded-md bg-[#565f69] shadow-[#040c16] hover:scale-110 duration-500'>
                   <img className='my-4 w-10 mx-auto' src={Netlify} alt="HTML icon" />
                   <p className='my-6'>netlify</p>
               </div>
@@ -91,4 +91,4 @@ const Skills = () => {
   );
 };
 
-export default Skills;
+export default TechStack;

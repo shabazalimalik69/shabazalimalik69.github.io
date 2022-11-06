@@ -8,23 +8,21 @@ import harvest from '../logos/harvest.jpg';
 
 const Projects = () => {
   return (
-   <div name='projects' className='w-full md:h-full text-gray-300 bg-[#263d5e]'>
-    <div className='max-w-[1000px] mx-auto px-4 py-40 flex flex-col justify-center w-full h-full'>
-      <div className='pb-8'>
-        <p className='text-4xl font-bold text-center p-8'>
+   <div name='projects' className='w-full md:h-full text-gray-300 bg-[#293c42]'>
+    <div className='max-w-[1000px] mx-auto px-4 py-10 flex flex-col justify-center w-full h-full'>
+      <div className='pb-12'>
+        <p className='text-4xl font-bold text-center'>
           Projects
         </p>
       </div>
 
       <div className='grid sm:grid-cols-1 md:grid-cols-1 gap-y-14'>
       <div className='grid sm:grid-cols-1 md:grid-cols-2'>
-      <div
-      style={{ backgroundImage: `url(${harvest})` }}
-      className='p-20 shadow-lg shadow-[#040c16] group container  flex justify-center items-center mx-auto content-div  rounded-t-md sm:rounded-l-md rounded-r-none'
-      >
+         <div>
+          <img src={harvest} className='h-full rounded-t-md sm:rounded-l-md rounded-r-none'  />
          </div>
 
-      <div className='bg-[#f6efeb] rounded-b-md sm:rounded-r-md rounded-l-none py-4'  >
+      <div className='bg-gray-400 rounded-b-md sm:rounded-r-md rounded-l-none py-4'  >
       <h1 className='text-2xl py-4 text-center font-bold text-black tracking-wider'>Harvest-Clone</h1>
        <h3 className='sm:text-1xl py-4 text-center font-bold text-amber-800 tracking-wider'>
         Tech Stack: React js, Redux, Chakra UI
@@ -46,12 +44,11 @@ const Projects = () => {
      </div>
       
      <div className='grid sm:grid-cols-1 md:grid-cols-2'>
-      <div
-      style={{ backgroundImage: `url(${surveymonkey})` }}
-      className='shadow-lg shadow-[#040c16] group container p-8 flex justify-center items-center mx-auto content-div rounded-t-md sm:rounded-l-md rounded-r-none'
-      >
+       <div>
+          <img src={surveymonkey} className='h-full rounded-t-md sm:rounded-l-md rounded-r-none'  />
          </div>
-      <div className='bg-white rounded-b-md sm:rounded-r-md rounded-l-none py-4'>
+         
+      <div className='bg-gray-400 rounded-b-md sm:rounded-r-md rounded-l-none py-4'>
       <h1 className='text-2xl py-4 text-center font-bold text-black tracking-wider'>SurveyMonkey-Clone</h1>
        <h3 className='text-1xl py-4 text-center font-bold text-amber-800 tracking-wider'>
         Tech Stack: React Js, Chakra UI
@@ -73,12 +70,10 @@ const Projects = () => {
      </div>
 
      <div className='grid sm:grid-cols-1 md:grid-cols-2'>
-      <div
-      style={{ backgroundImage: `url(${bewakoof})` }}
-      className='shadow-lg shadow-[#040c16] group container p-8 flex justify-center items-center mx-auto content-div rounded-t-md sm:rounded-l-md rounded-r-none'
-      >
-        </div>
-      <div className='bg-white rounded-b-md sm:rounded-r-md rounded-l-none py-4'>
+         <div>
+          <img src={bewakoof} className='h-full rounded-t-md sm:rounded-l-md rounded-r-none'  />
+         </div>
+      <div className='bg-gray-400 rounded-b-md sm:rounded-r-md rounded-l-none py-4'>
       <h1 className='text-2xl py-4 text-center font-bold text-black tracking-wider'> BEWAKOOF-Clone </h1>
        <h3 className='text-1xl py-4 text-center font-bold text-amber-800 tracking-wider'>
         Tech Stack: HTML, CSS, JS
@@ -100,12 +95,10 @@ const Projects = () => {
       </div>
        
       <div className='grid sm:grid-cols-1 md:grid-cols-2'>
-     <div
-      style={{ backgroundImage: `url(${sephora})` }}
-      className='shadow-lg shadow-[#040c16] group container p-8 flex justify-center items-center mx-auto content-div rounded-t-md sm:rounded-l-md rounded-r-none'
-      >
-        </div>
-      <div className='bg-white rounded-b-md sm:rounded-r-md rounded-l-none py-4'>
+         <div>
+          <img src={sephora} className='h-full rounded-t-md sm:rounded-l-md rounded-r-none'  />
+         </div>
+      <div className='bg-gray-400 rounded-b-md sm:rounded-r-md rounded-l-none py-4'>
       <h1 className='text-2xl py-4 text-center font-bold text-black tracking-wider'> SEPHORA-Clone </h1>
        <h3 className='text-1xl py-4 text-center font-bold text-amber-800 tracking-wider'>
        Tech Stack: HTML, CSS, JS

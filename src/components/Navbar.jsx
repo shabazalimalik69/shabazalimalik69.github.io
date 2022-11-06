@@ -1,15 +1,10 @@
 import React, { useState } from "react"; 
 import {
     FaBars,
-    FaTimes,
-    FaGithub,
-  FaLinkedin,
-  FaWhatsapp,
-  FaTwitter
+    FaTimes
   } from 'react-icons/fa';
 import Logo from '../logos/logo.png';
-import { HiArrowDown, HiOutlineMail } from 'react-icons/hi';
-import { BsFillPersonLinesFill } from 'react-icons/bs';
+import { HiArrowDown } from 'react-icons/hi';
 import { Link } from 'react-scroll';
 import resume from './Resume/Shabaz_Malik_Resume.pdf'
 const Navbar = () => {
@@ -32,18 +27,13 @@ const Navbar = () => {
           </Link>
             </li>
             <li>
-            <Link to='about' className="text-white font-bold" smooth={true} duration={500}>
-            About
-          </Link>
-            </li>
-            <li>
             <Link to='skills' className="text-white font-bold" smooth={true} duration={500}>
-            Tech Stacks
+            Skills
             </Link>
             </li>
             <li>
-            <Link to='techStack' className="text-white font-bold" smooth={true} duration={500}>
-            Skills
+            <Link to='techStacks' className="text-white font-bold" smooth={true} duration={500}>
+            Tech Stacks
             </Link>
             </li>
             <li>
@@ -78,18 +68,13 @@ const Navbar = () => {
           </Link>
         </li>
         <li className='py-6 text-4xl'>
-          <Link onClick={handleClick} to='about' className="text-green-500" smooth={true} duration={500}>
-            About
-          </Link>
-        </li>
-            <li className='py-6 text-4xl'>
           <Link onClick={handleClick} to='skills' className="text-green-500" smooth={true} duration={500}>
-            Tech Stacks
+           Skills
           </Link>
         </li>
         <li className='py-6 text-4xl'>
-          <Link onClick={handleClick} to='techStack' className="text-green-500" smooth={true} duration={500}>
-           Skills
+          <Link onClick={handleClick} to='techStacks' className="text-green-500" smooth={true} duration={500}>
+            Tech Stacks
           </Link>
         </li>
          <li className='py-6 text-4xl'>
@@ -108,52 +93,6 @@ const Navbar = () => {
           </a>
         </li>
         </ul>
-      </div>
-
-      {/* Social Icons  */}
-      <div className="hidden sm:flex fixed flex-col top-[35%] left-0">
-       <ul>
-        <li className='w-[140px] h-[40px] flex justify-between items-center ml-[-95px] hover:ml-[-10px] duration-300 bg-blue-600 '>
-          <a className='flex justify-between items-center w-full text-gray-300'
-          href="https://www.linkedin.com/in/shabaz-ali-malik-4ab412203/" rel="noreferrer" target="_blank">Linkedin <FaLinkedin size={20} /> </a>
-        </li>
-        <li className='w-[140px] h-[40px] flex justify-between items-center ml-[-95px] hover:ml-[-10px] duration-300 bg-[#25D366]'>
-            <a
-              className='flex justify-between items-center w-full text-[gray-300]'
-              href='https://www.whatsapp.com/' rel="noreferrer" target="_blank"
-            >
-              Whatsapp <FaWhatsapp size={20} />
-            </a>
-          </li>
-        <li className='w-[140px] h-[40px] flex justify-between items-center ml-[-95px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]'>
-            <a
-              className='flex justify-between items-center w-full text-gray-300'
-              href='https://mail.google.com/mail/u/0/#inbox?compose=new' rel="noreferrer" target="_blank"
-            >
-              Email <HiOutlineMail size={20} />
-            </a>
-          </li>
-          <li className='w-[140px] h-[40px] flex justify-between items-center ml-[-95px] hover:ml-[-10px] duration-300 bg-blue-600 '>
-          <a className='flex justify-between items-center w-full text-gray-300'
-          href="https://twitter.com/shabazalimalik" rel="noreferrer" target="_blank">twitter <FaTwitter size={20} /> </a>
-        </li>
-          <li className='w-[140px] h-[40px] flex justify-between items-center ml-[-95px] hover:ml-[-10px] duration-300 bg-[#333333]'>
-            <a
-              className='flex justify-between items-center w-full text-gray-300'
-              href='https://github.com/shabazalimalik69' rel="noreferrer" target="_blank"
-            >
-              Github <FaGithub size={20} />
-            </a>
-          </li>
-          <li className='w-[140px] h-[40px] flex justify-between items-center ml-[-95px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
-            <a
-              className='flex justify-between items-center w-full text-gray-300'
-              href={resume} download={true}
-            >
-              RESUME <HiArrowDown/> <BsFillPersonLinesFill size={20} />
-            </a>
-          </li>
-       </ul>
       </div>
     </div>
   )

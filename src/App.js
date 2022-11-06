@@ -1,4 +1,3 @@
-import About from "./components/About";
 import Contact from "./components/Contact";
 import GitHubStat from "./components/GitHubStat";
 import Home from "./components/Home";
@@ -13,9 +12,8 @@ function App() {
       <div>
        <Navbar/>
        <Home/>
-       <About/>
-       <TechStack/>
        <Skills/>
+       <TechStack/>
        <Projects/>
        <GitHubStat/>
        <Contact/>
