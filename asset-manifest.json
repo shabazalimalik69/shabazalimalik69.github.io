@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.b10dc08a.css",
-    "main.js": "/static/js/main.748f70f4.js",
+    "main.js": "/static/js/main.54367d92.js",
     "static/media/Shabaz_Malik_Resume.pdf": "/static/media/Shabaz_Malik_Resume.ddbe09b7d92a06bd4b7f.pdf",
     "static/media/sephora.jpg": "/static/media/sephora.3b23bd857bea4989bead.jpg",
     "static/media/harvest.jpg": "/static/media/harvest.3e54ebad5fa228e1c217.jpg",
@@ -22,10 +22,10 @@
     "static/media/javascript.png": "/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/index.html",
     "main.b10dc08a.css.map": "/static/css/main.b10dc08a.css.map",
-    "main.748f70f4.js.map": "/static/js/main.748f70f4.js.map"
+    "main.54367d92.js.map": "/static/js/main.54367d92.js.map"
   },
   "entrypoints": [
     "static/css/main.b10dc08a.css",
-    "static/js/main.748f70f4.js"
+    "static/js/main.54367d92.js"
   ]
 }
