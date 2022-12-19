@@ -1,7 +1,7 @@
 import React from 'react'
-import bewakoof from '../logos/bewakoof.jpeg';
-import sephora from '../logos/sephora.jpg';
-import surveymonkey from '../logos/surmonkey.jpg';
+import easybuy from '../logos/easybuy1.jpg';
+import usermanagement from '../logos/usermanegement.jpg';
+import homedecor from '../logos/homedecor.jpg';
 import harvest from '../logos/harvest.jpg';
 
 
@@ -17,6 +17,34 @@ const Projects = () => {
       </div>
 
       <div className='grid sm:grid-cols-1 md:grid-cols-1 gap-y-14'>
+
+      <div className='grid sm:grid-cols-1 md:grid-cols-2'>
+         <div>
+          <img src={homedecor} className='h-full rounded-t-md sm:rounded-l-md rounded-r-none'  />
+         </div>
+
+      <div className='bg-gray-400 rounded-b-md sm:rounded-r-md rounded-l-none py-4'  >
+      <h1 className='text-2xl py-4 text-center font-bold text-black tracking-wider'>HomeDecor-Clone</h1>
+       <h3 className='sm:text-1xl py-4 text-center font-bold text-amber-800 tracking-wider'>
+        Tech Stack: React Js, Redux,Node Js, Express Js, MongoDB Chakra UI
+      </h3>
+      <p className='text-justify px-4 text-black'>HomeDecor is a website where user can search for home decoration products like furniture, kids toys and many more</p>
+      <div className='pt-8 flex justify-around'>
+        <a href='https://homedecorfurniture.vercel.app/' target="_blank">
+          <button className='text-center rounded-lg px-4 py-3 m-2 bg-[#5a85d3] text-white font-bold text-md'>
+            Deploy
+          </button>
+        </a>
+        <a href='https://github.com/VijaySingh8650/instinctive-start-5063' target="_blank">
+          <button className='text-center rounded-lg px-4 py-3 m-2 bg-[#5a85d3] text-white font-bold text-md'>
+            GitHub
+          </button>
+        </a>
+      </div>
+      </div>
+     </div>
+
+
       <div className='grid sm:grid-cols-1 md:grid-cols-2'>
          <div>
           <img src={harvest} className='h-full rounded-t-md sm:rounded-l-md rounded-r-none'  />
@@ -25,7 +53,7 @@ const Projects = () => {
       <div className='bg-gray-400 rounded-b-md sm:rounded-r-md rounded-l-none py-4'  >
       <h1 className='text-2xl py-4 text-center font-bold text-black tracking-wider'>Harvest-Clone</h1>
        <h3 className='sm:text-1xl py-4 text-center font-bold text-amber-800 tracking-wider'>
-        Tech Stack: React js, Redux, Chakra UI
+        Tech Stack: React Js, Redux,Node Js, Express Js, MongoDB Chakra UI
       </h3>
       <p className='text-justify px-4 text-black'>Harvest is a time-tracking app for freelancers that includes invoicing, expensing, and team management features....</p>
       <div className='pt-8 flex justify-around'>
@@ -44,23 +72,23 @@ const Projects = () => {
      </div>
       
      <div className='grid sm:grid-cols-1 md:grid-cols-2'>
-       <div>
-          <img src={surveymonkey} className='h-full rounded-t-md sm:rounded-l-md rounded-r-none'  />
+         <div>
+          <img src={usermanagement} className='h-full rounded-t-md sm:rounded-l-md rounded-r-none'  />
          </div>
-         
-      <div className='bg-gray-400 rounded-b-md sm:rounded-r-md rounded-l-none py-4'>
-      <h1 className='text-2xl py-4 text-center font-bold text-black tracking-wider'>SurveyMonkey-Clone</h1>
-       <h3 className='text-1xl py-4 text-center font-bold text-amber-800 tracking-wider'>
-        Tech Stack: React Js, Chakra UI
+
+      <div className='bg-gray-400 rounded-b-md sm:rounded-r-md rounded-l-none py-4'  >
+      <h1 className='text-2xl py-4 text-center font-bold text-black tracking-wider'>UserManagement</h1>
+       <h3 className='sm:text-1xl py-4 text-center font-bold text-amber-800 tracking-wider'>
+        Tech Stack: React Js, Redux,Node Js, Express Js, MongoDB, Chakra UI
       </h3>
-      <p className='text-justify px-4 text-black'>SurveyMonkey is the world's leading People Powered Data platform.It  operates on a freemium business model...</p>
+      <p className='text-justify px-4 text-black'>This is a small project where user can create account and then login. After login, a user will be redirected to the homepage. where user can create, update, delete their details.</p>
       <div className='pt-8 flex justify-around'>
-        <a href='https://isnt-shabazalimalik69-gmail-com-awesome-52259.netlify.app/' target="_blank">
+        <a href='https://fastidious-narwhal-38c0e0.netlify.app/signin' target="_blank">
           <button className='text-center rounded-lg px-4 py-3 m-2 bg-[#5a85d3] text-white font-bold text-md'>
             Deploy
           </button>
         </a>
-        <a href='https://github.com/shabazalimalik69/-pumped-pot-3496' target="_blank">
+        <a href='https://github.com/shabazalimalik69/User_Management_Project' target="_blank">
           <button className='text-center rounded-lg px-4 py-3 m-2 bg-[#5a85d3] text-white font-bold text-md'>
             GitHub
           </button>
@@ -69,49 +97,26 @@ const Projects = () => {
       </div>
      </div>
 
-     <div className='grid sm:grid-cols-1 md:grid-cols-2'>
-         <div>
-          <img src={bewakoof} className='h-full rounded-t-md sm:rounded-l-md rounded-r-none'  />
-         </div>
-      <div className='bg-gray-400 rounded-b-md sm:rounded-r-md rounded-l-none py-4'>
-      <h1 className='text-2xl py-4 text-center font-bold text-black tracking-wider'> BEWAKOOF-Clone </h1>
-       <h3 className='text-1xl py-4 text-center font-bold text-amber-800 tracking-wider'>
-        Tech Stack: HTML, CSS, JS
-      </h3>
-      <p className='text-justify px-4 text-black'>BEWAKOOF is an Online Shopping site for Men and Women Clothing.Shop from a wide range of T-shirts, Mobile Covers, Accessories and more at the best prices..</p>
-      <div className='pt-8 flex justify-around'>
-        <a href='https://jazzy-cocada-65d352.netlify.app/' target="_blank">
-          <button className='text-center rounded-lg px-4 py-3 m-2 bg-[#5a85d3] text-white font-bold text-md'>
-            Deploy
-          </button>
-        </a>
-        <a href='https://github.com/11-DEEPAK-KUMAR-11/Bewakoof_website' target="_blank">
-          <button className='text-center rounded-lg px-4  py-3 m-2 bg-[#5a85d3] text-white font-bold text-md'>
-            GitHub
-          </button>
-        </a>
-      </div>
-      </div>
-      </div>
-       
+
+     
       <div className='grid sm:grid-cols-1 md:grid-cols-2'>
          <div>
-          <img src={sephora} className='h-full rounded-t-md sm:rounded-l-md rounded-r-none'  />
+          <img src={easybuy} className='h-full rounded-t-md sm:rounded-l-md rounded-r-none'  />
          </div>
       <div className='bg-gray-400 rounded-b-md sm:rounded-r-md rounded-l-none py-4'>
-      <h1 className='text-2xl py-4 text-center font-bold text-black tracking-wider'> SEPHORA-Clone </h1>
+      <h1 className='text-2xl py-4 text-center font-bold text-black tracking-wider'> easyBuy </h1>
        <h3 className='text-1xl py-4 text-center font-bold text-amber-800 tracking-wider'>
-       Tech Stack: HTML, CSS, JS
+       Tech Stack: HTML5, CSS3, Vanilla JS
       </h3>
       
-      <p className='text-justify px-4 text-black'>SEPHORA is a French multinational retailer of personal care and beauty products.Skincare, makeup and beauty products from top brands with the best shopping experience...</p>
+      <p className='text-justify px-4 text-black'>easyBuy is a ecommerce website, where a user can purchase different products like mobile accessories, jewellery related products, laptops, etc</p>
       <div className='pt-8 flex justify-around'>
-        <a href='https://stellular-fox-5ba872.netlify.app/' target="_blank">
+        <a href='https://easybuy123.netlify.app/html/home.html' target="_blank">
           <button className='text-center rounded-lg px-4 py-3 m-2 bg-[#5a85d3] text-white font-bold text-md'>
             Deploy
           </button>
         </a>
-        <a href='https://github.com/BishalPatgiri/SEPHORA-E-commerce-Website' target="_blank">
+        <a href='https://github.com/shabazalimalik69/easyBuy' target="_blank">
           <button className='text-center rounded-lg px-4 py-3 m-2 bg-[#5a85d3] text-white font-bold text-md'>
             GitHub
           </button>
