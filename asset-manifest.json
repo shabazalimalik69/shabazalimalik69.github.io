@@ -1,11 +1,12 @@
 {
   "files": {
     "main.css": "/static/css/main.b10dc08a.css",
-    "main.js": "/static/js/main.df63d705.js",
+    "main.js": "/static/js/main.d17af2c8.js",
     "static/media/Shabaz_Malik_Resume.pdf": "/static/media/Shabaz_Malik_Resume.e7a2cd99a370531636c5.pdf",
     "static/media/homedecor.jpg": "/static/media/homedecor.622e1572ef879eb3b182.jpg",
     "static/media/easybuy1.jpg": "/static/media/easybuy1.9c248a9814e0eefbc707.jpg",
     "static/media/harvest.jpg": "/static/media/harvest.3e54ebad5fa228e1c217.jpg",
+    "static/media/romofyi.jpeg": "/static/media/romofyi.685821939c00ef64a5c8.jpeg",
     "static/media/twitter.png": "/static/media/twitter.b413b75b86f226240110.png",
     "static/media/phone.png": "/static/media/phone.bfe3f104eb40c25be2f5.png",
     "static/media/usermanegement.jpg": "/static/media/usermanegement.ef758f42f21395d87107.jpg",
@@ -22,10 +23,10 @@
     "static/media/javascript.png": "/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/index.html",
     "main.b10dc08a.css.map": "/static/css/main.b10dc08a.css.map",
-    "main.df63d705.js.map": "/static/js/main.df63d705.js.map"
+    "main.d17af2c8.js.map": "/static/js/main.d17af2c8.js.map"
   },
   "entrypoints": [
     "static/css/main.b10dc08a.css",
-    "static/js/main.df63d705.js"
+    "static/js/main.d17af2c8.js"
   ]
 }
