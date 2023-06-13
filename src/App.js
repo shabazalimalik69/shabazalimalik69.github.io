@@ -5,6 +5,7 @@ import Navbar from "./components/Navbar";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 import TechStack from "./components/TechStack";
+import Experience from "./components/Experience";
 
 function App() {
   document.title="Shabaz Ali Malik - Full Stack Web Developer"
@@ -14,6 +15,7 @@ function App() {
        <Home/>
        <Skills/>
        <TechStack/>
+       <Experience/>
        <Projects/>
        <GitHubStat/>
        <Contact/>

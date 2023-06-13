@@ -9,7 +9,7 @@ import { HiExternalLink } from 'react-icons/hi';
 
 const Contact = () => {
   return (
-    <div name='contact' className='w-full h-full py-12 bg-[#293c42]'>
+    <div name='contact' className='w-full h-full py-10 bg-[#293c42]'>
       <div className='text-4xl justify-center mb-10 flex font-bold text-gray-300'>
       <p >Contact</p>
       </div>
