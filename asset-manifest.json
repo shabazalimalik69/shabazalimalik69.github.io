@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.5c444c47.css",
-    "main.js": "/static/js/main.a3945a59.js",
+    "main.js": "/static/js/main.ceba33ad.js",
     "static/media/Shabaz_Malik_Resume.pdf": "/static/media/Shabaz_Malik_Resume.2b4404dd91e506acc6ff.pdf",
     "static/media/homedecor.jpg": "/static/media/homedecor.622e1572ef879eb3b182.jpg",
     "static/media/easybuy1.jpg": "/static/media/easybuy1.9c248a9814e0eefbc707.jpg",
@@ -23,10 +23,10 @@
     "static/media/javascript.png": "/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/index.html",
     "main.5c444c47.css.map": "/static/css/main.5c444c47.css.map",
-    "main.a3945a59.js.map": "/static/js/main.a3945a59.js.map"
+    "main.ceba33ad.js.map": "/static/js/main.ceba33ad.js.map"
   },
   "entrypoints": [
     "static/css/main.5c444c47.css",
-    "static/js/main.a3945a59.js"
+    "static/js/main.ceba33ad.js"
   ]
 }
