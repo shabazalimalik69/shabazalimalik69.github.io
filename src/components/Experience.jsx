@@ -12,7 +12,7 @@ const Skills = () => {
           {/* <h1 className='py-3 text-2xl sm:text-5xl font-bold text-white'>Software Engineer</h1>
             <h2 className='py-2 font-bold text-amber-500  text-1xl sm:text-2xl'>Microchip Payments	| Hubballi, Karnataka.</h2>
             <h2 className='py-2 font-bold text-amber-500  text-1xl sm:text-2xl'>March 2021 – June 2023</h2> */}
-            <h1 className='py-3 text-2xl sm:text-5xl font-bold text-white'>Software Engineer Intern</h1>
+            <h2 className='py-3 text-2xl sm:text-5xl font-bold text-white'>Software Engineer Intern</h2>
             <h2 className='py-2 font-bold text-amber-500  text-1xl sm:text-2xl'>Zimyo	| Gurgoan, Haryana.</h2>
             <h2 className='py-2 font-bold text-amber-500  text-1xl sm:text-2xl'>March 2023 – May 2023</h2>
           {/* <h6 className='text-justify text-green-500 py-4  max-w-[900px] '>
