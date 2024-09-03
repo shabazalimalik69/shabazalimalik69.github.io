@@ -1,4 +1,7 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+# To deploy run below commands:
+# 1) npm run build
+# 2) npm run deploy
 
 # dependencies
 /node_modules
