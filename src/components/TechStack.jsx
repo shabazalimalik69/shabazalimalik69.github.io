@@ -27,14 +27,30 @@ import {
   SiFirebase,
   SiHtml5,
   SiCss3,
-  SiOpenai
+  SiOpenai,
+  SiVercel,
+  SiNetlify,
+  SiRailway,
+  SiCpanel,
+  SiStripe,
+  SiRazorpay
 } from 'react-icons/si';
-import { FaLayerGroup, FaBolt, FaTerminal, FaBrain, FaRobot, FaMicrochip, FaMagic } from 'react-icons/fa';
+import { 
+  FaLayerGroup, 
+  FaBolt, 
+  FaTerminal, 
+  FaBrain, 
+  FaRobot, 
+  FaMicrochip, 
+  FaMagic, 
+  FaCloudUploadAlt, 
+  FaServer 
+} from 'react-icons/fa';
 
 const TechStack = () => {
   const [activeCategory, setActiveCategory] = useState('All');
 
-  const categories = ['All', 'AI & LLM', 'Frontend', 'Backend', 'Databases', 'Realtime & Queues', 'DevOps & Cloud'];
+  const categories = ['All', 'AI & LLM', 'Frontend', 'Backend', 'Databases', 'Realtime & Queues', 'Cloud & Hosting', 'Payments & Tools'];
 
   const techItems = [
     // AI & LLM Integrations
@@ -77,13 +93,25 @@ const TechStack = () => {
     { name: 'Apache Kafka', icon: <SiApachekafka className="text-white" />, category: 'Realtime & Queues' },
     { name: 'Firebase Messaging', icon: <SiFirebase className="text-[#FFCA28]" />, category: 'Realtime & Queues' },
 
-    // DevOps & Cloud
-    { name: 'AWS Cloud', icon: <SiAmazonaws className="text-[#FF9900]" />, category: 'DevOps & Cloud' },
-    { name: 'Docker', icon: <SiDocker className="text-[#2496ED]" />, category: 'DevOps & Cloud' },
-    { name: 'Kubernetes', icon: <SiKubernetes className="text-[#326CE5]" />, category: 'DevOps & Cloud' },
-    { name: 'Git', icon: <SiGit className="text-[#F05032]" />, category: 'DevOps & Cloud' },
-    { name: 'Jest / Supertest', icon: <SiJest className="text-[#C21325]" />, category: 'DevOps & Cloud' },
-    { name: 'Postman', icon: <SiPostman className="text-[#FF6C37]" />, category: 'DevOps & Cloud' }
+    // Cloud & Hosting
+    { name: 'AWS Cloud', icon: <SiAmazonaws className="text-[#FF9900]" />, category: 'Cloud & Hosting' },
+    { name: 'Docker', icon: <SiDocker className="text-[#2496ED]" />, category: 'Cloud & Hosting' },
+    { name: 'Kubernetes', icon: <SiKubernetes className="text-[#326CE5]" />, category: 'Cloud & Hosting' },
+    { name: 'CI/CD Pipelines', icon: <FaLayerGroup className="text-[#10B981]" />, category: 'Cloud & Hosting' },
+    { name: 'Vercel', icon: <SiVercel className="text-white" />, category: 'Cloud & Hosting' },
+    { name: 'Netlify', icon: <SiNetlify className="text-[#00C7B7]" />, category: 'Cloud & Hosting' },
+    { name: 'Render', icon: <FaCloudUploadAlt className="text-[#46E3B7]" />, category: 'Cloud & Hosting' },
+    { name: 'Railway', icon: <SiRailway className="text-white" />, category: 'Cloud & Hosting' },
+    { name: 'Hostinger', icon: <FaServer className="text-[#673AB7]" />, category: 'Cloud & Hosting' },
+    { name: 'cPanel', icon: <SiCpanel className="text-[#FF6C2C]" />, category: 'Cloud & Hosting' },
+
+    // Payments & Tools
+    { name: 'Stripe', icon: <SiStripe className="text-[#635BFF]" />, category: 'Payments & Tools' },
+    { name: 'Razorpay', icon: <SiRazorpay className="text-[#528FF0]" />, category: 'Payments & Tools' },
+    { name: 'Git', icon: <SiGit className="text-[#F05032]" />, category: 'Payments & Tools' },
+    { name: 'Postman', icon: <SiPostman className="text-[#FF6C37]" />, category: 'Payments & Tools' },
+    { name: 'Jest', icon: <SiJest className="text-[#C21325]" />, category: 'Payments & Tools' },
+    { name: 'Supertest', icon: <FaTerminal className="text-[#10B981]" />, category: 'Payments & Tools' }
   ];
 
   const filteredItems = activeCategory === 'All'

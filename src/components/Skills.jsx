@@ -4,7 +4,8 @@ import {
   FaServer, 
   FaBrain, 
   FaDatabase, 
-  FaCloud 
+  FaCloud,
+  FaCreditCard
 } from 'react-icons/fa';
 
 const Skills = () => {
@@ -31,13 +32,19 @@ const Skills = () => {
       title: 'Databases & Realtime',
       icon: <FaDatabase className="text-3xl text-amber-400" />,
       description: 'Managing relational/NoSQL databases, distributed caching, and realtime streaming.',
-      skills: ['PostgreSQL', 'MongoDB', 'MySQL', 'Redis', 'Socket.IO', 'BullMQ', 'RabbitMQ', 'Apache Kafka', 'Firebase']
+      skills: ['PostgreSQL', 'MongoDB', 'MySQL', 'Redis', 'Socket.IO', 'BullMQ', 'RabbitMQ', 'Apache Kafka', 'Firebase Cloud Messaging']
     },
     {
-      title: 'Cloud, DevOps & Testing',
+      title: 'Cloud & Hosting',
       icon: <FaCloud className="text-3xl text-blue-400" />,
-      description: 'Automated CI/CD pipelines, container orchestration, and automated test coverage.',
-      skills: ['AWS (Lambda, SES, SNS, SQS)', 'Docker', 'Kubernetes', 'CI/CD', 'Git', 'Jest', 'Supertest', 'Postman']
+      description: 'Cloud infrastructure, container orchestration, CI/CD pipelines, and multi-platform hosting.',
+      skills: ['AWS (Lambda, SES, SNS, SQS)', 'Docker', 'Kubernetes', 'CI/CD', 'Vercel', 'Netlify', 'Render', 'Railway', 'Hostinger', 'cPanel']
+    },
+    {
+      title: 'Payments & Tools',
+      icon: <FaCreditCard className="text-3xl text-emerald-400" />,
+      description: 'Payment gateway integrations, version control, automated testing suites, and API testing.',
+      skills: ['Stripe', 'Razorpay', 'Git', 'Postman', 'Jest', 'Supertest']
     }
   ];
 
