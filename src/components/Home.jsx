@@ -40,7 +40,10 @@ const Home = () => {
             Shabaz Ali Malik
           </h1>
           <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold bg-gradient-to-r from-cyan-400 via-teal-300 to-emerald-400 bg-clip-text text-transparent mt-2">
-            Full Stack &amp; AI Engineer | Node.js • TypeScript • React.js • Generative AI
+            Full Stack &amp; AI Engineer
+          </h2>
+          <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold bg-gradient-to-r from-cyan-400 via-teal-300 to-emerald-400 bg-clip-text text-transparent mt-2">
+            Node.js • TypeScript • React.js • Generative AI
           </h2>
           <p className="text-slate-300 text-sm sm:text-base leading-relaxed mt-4 text-justify md:text-left">
             Full Stack &amp; AI Engineer with 5+ years of experience engineering high-performance web applications, resilient backend architectures, and AI-enabled workflows using Node.js, TypeScript, React.js, and modern cloud databases. Proven record of deploying scalable RESTful &amp; GraphQL APIs, integrating foundation LLMs (OpenAI, Anthropic Claude, Google Gemini, Grok), and building real-time messaging pipelines with Socket.IO &amp; BullMQ. Focused on clean code, automated testing, and reliable full-stack delivery.
