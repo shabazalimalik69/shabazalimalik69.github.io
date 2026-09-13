@@ -2,12 +2,19 @@ import React from 'react';
 import { 
   FaCode, 
   FaServer, 
+  FaBrain, 
   FaDatabase, 
   FaCloud 
 } from 'react-icons/fa';
 
 const Skills = () => {
   const skillCategories = [
+    {
+      title: 'AI & LLM Integrations',
+      icon: <FaBrain className="text-3xl text-purple-400" />,
+      description: 'Integrating foundation LLMs, conversational agents, prompt engineering, and intelligent streaming workflows.',
+      skills: ['OpenAI API', 'Anthropic Claude', 'Google Gemini', 'Grok', 'Prompt Engineering', 'Streaming Responses', 'Function Calling']
+    },
     {
       title: 'Frontend Development',
       icon: <FaCode className="text-3xl text-cyan-400" />,

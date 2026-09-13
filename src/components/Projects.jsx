@@ -14,12 +14,12 @@ const Projects = () => {
       subtitle: 'Production Travel & Heritage Booking Platform',
       image: tourzaImg,
       badge: 'Featured Full-Stack App',
-      techStack: ['Next.js', 'PostgreSQL', 'Redis', 'Socket.IO', 'BullMQ', 'AWS SES', 'Tailwind CSS', 'Jest', 'Winston'],
-      description: 'A comprehensive high-performance travel booking and heritage accommodation platform built for scale, featuring real-time availability, asynchronous queue processing, and automated cloud communications.',
+      techStack: ['Next.js', 'OpenAI API', 'Google Gemini', 'PostgreSQL', 'Redis', 'Socket.IO', 'BullMQ', 'AWS SES', 'Tailwind CSS'],
+      description: 'A comprehensive high-performance travel booking and heritage accommodation platform built for scale, featuring AI-powered personalized itinerary generation, real-time availability, and automated cloud workflows.',
       points: [
         'Developed a production travel booking platform featuring real-time room availability, interactive maps, and responsive UX.',
-        'Constructed asynchronous background jobs with BullMQ and Redis for booking workflows, automated receipt emails via AWS SES.',
-        'Wrote end-to-end integration tests using Jest and integrated structured application logging with Winston.'
+        'Built an AI itinerary generator leveraging OpenAI and Google Gemini APIs to deliver personalized travel schedules and cost breakdowns.',
+        'Constructed asynchronous background jobs with BullMQ and Redis for booking workflows and automated receipt emails via AWS SES.'
       ],
       liveUrl: 'https://tourzakashmir.com',
       gradient: 'from-emerald-500/20 via-teal-500/10 to-transparent'
@@ -29,10 +29,11 @@ const Projects = () => {
       subtitle: 'Enterprise Corporate Operations & CRM Portal',
       image: coreCallImg,
       badge: 'Enterprise Platform',
-      techStack: ['React.js', 'Node.js', 'Express.js', 'MongoDB', 'Redis', 'Material UI', 'REST APIs', 'JWT Auth'],
-      description: 'A full-scale corporate operations management portal designed for high-concurrency client tracking, real-time analytics aggregation, and secure role-based workflow execution.',
+      techStack: ['React.js', 'Anthropic Claude', 'Grok API', 'Node.js', 'Express.js', 'MongoDB', 'Redis', 'Material UI'],
+      description: 'A full-scale corporate operations management portal with AI ticket classification, high-concurrency client tracking, real-time analytics aggregation, and secure role-based workflow execution.',
       points: [
         'Delivered a full-stack corporate operations portal featuring role-based authentication, CRM dashboards, and client tracking.',
+        'Implemented an automated ticket classification and conversation summarization pipeline powered by Anthropic Claude and Grok APIs.',
         'Architected secure RESTful APIs connected to MongoDB, utilizing Redis caching to serve fast analytical metric summaries.'
       ],
       liveUrl: 'https://corecallsolutions.com',

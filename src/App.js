@@ -11,7 +11,7 @@ import Education from "./components/Education";
 
 function App() {
   useEffect(() => {
-    document.title = "Shabaz Ali Malik - Full Stack Engineer | Node.js • TypeScript • React.js";
+    document.title = "Shabaz Ali Malik - Full Stack & AI Engineer | Node.js • TypeScript • React.js • Generative AI";
   }, []);
 
   return (

@@ -23,7 +23,7 @@ const Home = () => {
               5+ Years Experience
             </span>
             <span className="px-3 py-1 text-xs font-semibold rounded-full bg-cyan-500/10 text-cyan-400 border border-cyan-500/20">
-              Production-Ready Apps
+              AI &amp; LLM Workflows
             </span>
             <span className="px-3 py-1 text-xs font-semibold rounded-full bg-amber-500/10 text-amber-400 border border-amber-500/20">
               Kashmir, India
@@ -40,10 +40,10 @@ const Home = () => {
             Shabaz Ali Malik
           </h1>
           <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold bg-gradient-to-r from-cyan-400 via-teal-300 to-emerald-400 bg-clip-text text-transparent mt-2">
-            Full Stack Engineer | Node.js • TypeScript • React.js
+            Full Stack &amp; AI Engineer | Node.js • TypeScript • React.js • Generative AI
           </h2>
           <p className="text-slate-300 text-sm sm:text-base leading-relaxed mt-4 text-justify md:text-left">
-            Full Stack Engineer with 5+ years of experience engineering high-performance web applications, resilient backend architectures, and microservices using Node.js, TypeScript, React.js, and modern cloud databases. Proven record of deploying scalable RESTful &amp; GraphQL APIs, real-time messaging pipelines with Socket.IO &amp; BullMQ, and cloud infrastructure via AWS and Docker. Focused on clean code, automated testing, and reliable full-stack delivery.
+            Full Stack &amp; AI Engineer with 5+ years of experience engineering high-performance web applications, resilient backend architectures, and AI-enabled workflows using Node.js, TypeScript, React.js, and modern cloud databases. Proven record of deploying scalable RESTful &amp; GraphQL APIs, integrating foundation LLMs (OpenAI, Anthropic Claude, Google Gemini, Grok), and building real-time messaging pipelines with Socket.IO &amp; BullMQ. Focused on clean code, automated testing, and reliable full-stack delivery.
           </p>
 
           <div className="mt-8 flex flex-wrap gap-4 justify-center md:justify-start">

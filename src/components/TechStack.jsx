@@ -26,16 +26,25 @@ import {
   SiRedux,
   SiFirebase,
   SiHtml5,
-  SiCss3
+  SiCss3,
+  SiOpenai
 } from 'react-icons/si';
-import { FaLayerGroup, FaBolt, FaTerminal } from 'react-icons/fa';
+import { FaLayerGroup, FaBolt, FaTerminal, FaBrain, FaRobot, FaMicrochip, FaMagic } from 'react-icons/fa';
 
 const TechStack = () => {
   const [activeCategory, setActiveCategory] = useState('All');
 
-  const categories = ['All', 'Frontend', 'Backend', 'Databases', 'Realtime & Queues', 'DevOps & Cloud'];
+  const categories = ['All', 'AI & LLM', 'Frontend', 'Backend', 'Databases', 'Realtime & Queues', 'DevOps & Cloud'];
 
   const techItems = [
+    // AI & LLM Integrations
+    { name: 'OpenAI API', icon: <SiOpenai className="text-[#10A37F]" />, category: 'AI & LLM' },
+    { name: 'Anthropic Claude', icon: <FaBrain className="text-[#D97706]" />, category: 'AI & LLM' },
+    { name: 'Google Gemini', icon: <FaRobot className="text-[#38BDF8]" />, category: 'AI & LLM' },
+    { name: 'Grok API', icon: <FaMicrochip className="text-[#E2E8F0]" />, category: 'AI & LLM' },
+    { name: 'Prompt Engineering', icon: <FaMagic className="text-[#A855F7]" />, category: 'AI & LLM' },
+    { name: 'Function Calling & Streaming', icon: <FaBolt className="text-[#EC4899]" />, category: 'AI & LLM' },
+
     // Languages & Frontend
     { name: 'TypeScript', icon: <SiTypescript className="text-[#3178C6]" />, category: 'Frontend' },
     { name: 'JavaScript (ES6+)', icon: <SiJavascript className="text-[#F7DF1E]" />, category: 'Frontend' },

@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { FaBars, FaTimes } from 'react-icons/fa';
-import Logo from '../logos/logo.png';
 import { HiArrowDown } from 'react-icons/hi';
 import { Link } from 'react-scroll';
 import resume from './Resume/Shabaz_Malik_Resume.pdf';

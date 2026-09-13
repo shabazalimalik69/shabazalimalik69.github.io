@@ -9,13 +9,13 @@ const Experience = () => {
       location: "Remote",
       duration: "Jul 2023 – Present",
       type: "Full-time",
-      skills: ["TypeScript", "Node.js", "Express.js", "React.js", "PostgreSQL", "MongoDB", "Socket.IO", "Firebase", "Jest", "CI/CD"],
+      skills: ["TypeScript", "Node.js", "Express.js", "React.js", "OpenAI / Claude / Gemini", "PostgreSQL", "MongoDB", "Socket.IO", "Firebase", "Jest", "CI/CD"],
       points: [
-        "Architect and maintain robust full-stack applications using TypeScript, Node.js, Express.js, and React.js.",
+        "Architect and scale robust full-stack applications using TypeScript, Node.js, Express.js, and React.js.",
+        "Integrated multi-provider LLM pipelines utilizing OpenAI, Anthropic Claude, and Google Gemini for dynamic content generation, automated data extraction, and conversational agents.",
         "Design and deploy high-throughput RESTful APIs, optimizing query executions across PostgreSQL and MongoDB to reduce latency.",
-        "Integrated real-time chat and multi-channel push notification pipelines with Socket.IO and Firebase Cloud Messaging.",
-        "Implemented automated testing with Jest and Supertest, maintaining rigorous stability and fast CI/CD deployments.",
-        "Partner with cross-functional engineering teams to triage production incidents, resolve bottlenecks, and ensure 99.9% uptime."
+        "Implemented real-time chat and multi-channel push notification pipelines with Socket.IO and Firebase Cloud Messaging.",
+        "Integrated automated testing pipelines with Jest and Supertest, maintaining stability, high test coverage, and continuous delivery."
       ]
     },
     {
