@@ -1,87 +1,120 @@
 import React from "react";
+import { FaBriefcase, FaCalendarAlt, FaMapMarkerAlt, FaCheckCircle } from "react-icons/fa";
 
-const Skills = () => {
+const Experience = () => {
+  const experiences = [
+    {
+      role: "Full Stack Developer",
+      company: "Spiderweb Technologies Pvt Ltd",
+      location: "Remote",
+      duration: "Jul 2023 – Present",
+      type: "Full-time",
+      skills: ["TypeScript", "Node.js", "Express.js", "React.js", "PostgreSQL", "MongoDB", "Socket.IO", "Firebase", "Jest", "CI/CD"],
+      points: [
+        "Architect and maintain robust full-stack applications using TypeScript, Node.js, Express.js, and React.js.",
+        "Design and deploy high-throughput RESTful APIs, optimizing query executions across PostgreSQL and MongoDB to reduce latency.",
+        "Integrated real-time chat and multi-channel push notification pipelines with Socket.IO and Firebase Cloud Messaging.",
+        "Implemented automated testing with Jest and Supertest, maintaining rigorous stability and fast CI/CD deployments.",
+        "Partner with cross-functional engineering teams to triage production incidents, resolve bottlenecks, and ensure 99.9% uptime."
+      ]
+    },
+    {
+      role: "Software Engineer",
+      company: "Microchip Payments Pvt Ltd",
+      location: "Karnataka, India",
+      duration: "Mar 2021 – Jun 2023",
+      type: "Full-time",
+      skills: ["Node.js", "Express.js", "React.js", "MySQL", "Redis", "WhatsApp API", "Payment Gateways", "Clean Architecture"],
+      points: [
+        "Built and deployed an enterprise WhatsApp chatbot integrated with internal HR services, automating routine employee inquiries.",
+        "Engineered backend business logic, secure transaction endpoints, and payment workflows using Node.js, Express.js, and MySQL.",
+        "Introduced Redis caching layers for heavy read operations, improving overall application responsiveness and load capacity.",
+        "Diagnosed critical defects and refactored core backend modules to follow modular, clean-architecture patterns."
+      ]
+    }
+  ];
+
   return (
-    <div name="experience" className="w-full h-full py-5  bg-[#293c42]">
-      <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
-        <div>
-          <p className="text-4xl py-8 text-white font-bold text-center">
-            Experience
+    <div name="experience" className="w-full py-20 bg-[#0b1320] text-slate-200">
+      <div className="max-w-[1100px] mx-auto px-6 flex flex-col justify-center w-full h-full">
+        
+        {/* Section Header */}
+        <div className="text-center pb-12">
+          <p className="text-sm uppercase tracking-widest text-emerald-400 font-semibold">
+            Career Journey
           </p>
+          <h2 className="text-3xl sm:text-4xl font-extrabold text-white mt-1">
+            Professional Experience
+          </h2>
+          <div className="w-20 h-1 bg-gradient-to-r from-emerald-400 to-cyan-500 mx-auto mt-3 rounded-full"></div>
         </div>
-{/* Spiderweb Technologies */}
-        <div className="w-full  text-center py-8">
-          <h2 className="py-3 text-2xl sm:text-5xl font-bold text-white">
-            Full Stack Developer
-          </h2>
-          <h2 className="py-2 font-bold text-amber-500  text-1xl sm:text-2xl">
-            Spiderweb Technologies | Mohali, Punjab.
-          </h2>
-          <h2 className="py-2 font-bold text-amber-500  text-1xl sm:text-2xl">
-            July 2023 – Present
-          </h2>
-          <h6 className="text-justify text-green-500 py-4 max-w-[900px]">
-            In my role, I have been deeply involved in the full lifecycle of
-            software development, from designing user-friendly interfaces to
-            implementing robust backend solutions.
-          </h6>
-          <h6 className="text-justify text-green-500 py-4 max-w-[900px]">
-            In terms of backend development, I specialized in building complex
-            RESTful APIs using Node.js and MongoDB. I integrated real-time chat
-            functionality with Firebase Realtime Database and Socket.io,
-            ensuring seamless communication within the application.
-          </h6>
-          <h6 className="text-justify text-green-500 py-4 max-w-[900px]">
-            Additionally, I implemented push notifications and email triggers
-            using NodeMailer, enhancing user engagement and system
-            notifications. My work also included optimizing backend performance
-            to handle high-traffic scenarios and ensuring data security and
-            integrity.
-          </h6>
+
+        {/* Timeline List */}
+        <div className="space-y-8">
+          {experiences.map((exp, index) => (
+            <div
+              key={index}
+              className="bg-slate-900/90 border border-slate-800 hover:border-slate-700 rounded-2xl p-6 sm:p-8 shadow-xl transition-all duration-300 hover:shadow-2xl hover:shadow-cyan-950/20"
+            >
+              {/* Top Row: Role, Company & Meta */}
+              <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4 pb-6 border-b border-slate-800">
+                <div>
+                  <div className="flex items-center gap-3">
+                    <div className="p-2.5 bg-emerald-500/10 text-emerald-400 rounded-lg border border-emerald-500/20">
+                      <FaBriefcase className="text-xl" />
+                    </div>
+                    <div>
+                      <h3 className="text-xl sm:text-2xl font-bold text-white">
+                        {exp.role}
+                      </h3>
+                      <h4 className="text-base sm:text-lg font-semibold text-emerald-400">
+                        {exp.company}
+                      </h4>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="flex flex-wrap items-center gap-2 text-xs font-medium text-slate-400">
+                  <span className="flex items-center gap-1.5 px-3 py-1 bg-slate-800 rounded-full border border-slate-700">
+                    <FaCalendarAlt className="text-cyan-400" />
+                    {exp.duration}
+                  </span>
+                  <span className="flex items-center gap-1.5 px-3 py-1 bg-slate-800 rounded-full border border-slate-700">
+                    <FaMapMarkerAlt className="text-amber-400" />
+                    {exp.location}
+                  </span>
+                </div>
+              </div>
+
+              {/* Bullet Points */}
+              <ul className="mt-6 space-y-3">
+                {exp.points.map((point, pIdx) => (
+                  <li key={pIdx} className="flex items-start gap-3 text-slate-300 text-sm sm:text-base leading-relaxed">
+                    <FaCheckCircle className="text-emerald-400 mt-1 flex-shrink-0 text-sm" />
+                    <span>{point}</span>
+                  </li>
+                ))}
+              </ul>
+
+              {/* Tech Badges */}
+              <div className="mt-6 pt-4 border-t border-slate-800/80 flex flex-wrap gap-2">
+                {exp.skills.map((skill, sIdx) => (
+                  <span
+                    key={sIdx}
+                    className="px-2.5 py-1 text-xs font-medium bg-slate-800/80 text-cyan-300 rounded-md border border-cyan-500/20"
+                  >
+                    {skill}
+                  </span>
+                ))}
+              </div>
+
+            </div>
+          ))}
         </div>
-        {/* Microchip Payments */}
-        <div className="w-full  text-center py-8">
-          <h2 className="py-3 text-2xl sm:text-5xl font-bold text-white">
-            Software Engineer
-          </h2>
-          <h2 className="py-2 font-bold text-amber-500  text-1xl sm:text-2xl">
-            Microchip Payments | Hubballi, Karnataka.
-          </h2>
-          <h2 className="py-2 font-bold text-amber-500  text-1xl sm:text-2xl">
-            March 2021 – June 2023
-          </h2>
-          <h6 className="text-justify text-green-500 py-4  max-w-[900px] ">
-            As a Software Engineer at Microchip Payments, I specialized in
-            working with React.js, Node.js, and WhatsApp ChatBot integration.
-            Throughout my tenure, I played a critical role in developing and
-            maintaining software applications related to payment processing,
-            while also integrating chatbot capabilities into the WhatsApp
-            platform.
-          </h6>
-          <h6 className="text-justify text-green-500 py-4  max-w-[900px] ">
-            My responsibilities encompassed various aspects of software
-            development, including frontend and backend development, chatbot
-            integration and collaboration with cross-functional teams.
-          </h6>
-          {/* <h6 className='text-justify text-green-500 py-4  max-w-[900px] '>
- In terms of software development, I actively participated in the creation of web-based applications using React.js for the frontend and Node.js for the backend. This involved closely working with the development team to understand business requirements, design software solutions, and implement them using best coding practices. Leveraging my expertise in React.js, I focused on designing and implementing user-friendly interfaces for payment-related modules. By creating responsive UI components, integrating APIs, and ensuring a seamless user experience across devices and browsers, I contributed to delivering visually appealing and intuitive interfaces.
- </h6>
- <h6 className='text-justify text-green-500 py-4  max-w-[900px] '>
- Regarding backend development, I utilized Node.js to contribute to the creation of robust and scalable backend systems. I played a significant role in building RESTful APIs, implementing business logic, integrating databases, and ensuring the security and integrity of data. Additionally, I leveraged my knowledge of Node.js to optimize backend performance and effectively handle high-traffic scenarios, further enhancing the overall system performance.
- </h6>
- <h6 className='text-justify text-green-500 py-4  max-w-[900px] '>
- One of my key contributions was the integration of chatbot capabilities into the WhatsApp platform. I was responsible for designing and developing conversational flows and integrating the chatbot with backend systems. By ensuring that the chatbot effectively handled user inquiries, provided relevant information, and seamlessly integrated with payment processing functionalities, I contributed to enhancing customer engagement and support capabilities.
- </h6>
- <h6 className='text-justify text-green-500 py-4  max-w-[900px] '>
- During my tenure, I achieved significant milestones, including successfully integrating the WhatsApp ChatBot into the payment processing platform. This integration enhanced customer engagement and support capabilities, resulting in improved customer satisfaction and retention. I also delivered multiple features and enhancements, such as real-time transaction updates, payment status notifications, and personalized user experiences, further contributing to the overall success of the organization. I received positive feedback from clients and stakeholders for the quality of the developed software, its performance, and the seamless integration of chatbot functionality.
- </h6>
- <h6 className='text-justify text-green-500 py-4  max-w-[900px] '>
- Overall, as a Software Engineer at Microchip Payments, I leveraged my expertise in React.js, Node.js, and WhatsApp ChatBot integration to develop and maintain software applications for payment processing. Through my contributions in software development, code review, testing, troubleshooting, and collaboration with cross-functional teams, I actively contributed to the growth and success.
- </h6> */}
-        </div>
+
       </div>
     </div>
   );
 };
 
-export default Skills;
+export default Experience;

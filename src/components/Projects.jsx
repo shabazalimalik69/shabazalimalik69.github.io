@@ -1,162 +1,168 @@
-import React from 'react'
-import easybuy from '../logos/easybuy1.jpg';
-import usermanagement from '../logos/usermanegement.jpg';
-import homedecor from '../logos/homedecor.jpg';
-import harvest from '../logos/harvest.jpg';
-import romofyi from '../logos/romofyi.jpeg';
-
-
+import React from 'react';
+import tourzaImg from '../logos/tourzakashmir.png';
+import coreCallImg from '../logos/corecallsolutions.png';
+import {
+  FaExternalLinkAlt,
+  FaCheckCircle,
+  FaBolt
+} from 'react-icons/fa';
 
 const Projects = () => {
+  const projects = [
+    {
+      title: 'Tourza Kashmir',
+      subtitle: 'Production Travel & Heritage Booking Platform',
+      image: tourzaImg,
+      badge: 'Featured Full-Stack App',
+      techStack: ['Next.js', 'PostgreSQL', 'Redis', 'Socket.IO', 'BullMQ', 'AWS SES', 'Tailwind CSS', 'Jest', 'Winston'],
+      description: 'A comprehensive high-performance travel booking and heritage accommodation platform built for scale, featuring real-time availability, asynchronous queue processing, and automated cloud communications.',
+      points: [
+        'Developed a production travel booking platform featuring real-time room availability, interactive maps, and responsive UX.',
+        'Constructed asynchronous background jobs with BullMQ and Redis for booking workflows, automated receipt emails via AWS SES.',
+        'Wrote end-to-end integration tests using Jest and integrated structured application logging with Winston.'
+      ],
+      liveUrl: 'https://tourzakashmir.com',
+      gradient: 'from-emerald-500/20 via-teal-500/10 to-transparent'
+    },
+    {
+      title: 'Core Call Solutions',
+      subtitle: 'Enterprise Corporate Operations & CRM Portal',
+      image: coreCallImg,
+      badge: 'Enterprise Platform',
+      techStack: ['React.js', 'Node.js', 'Express.js', 'MongoDB', 'Redis', 'Material UI', 'REST APIs', 'JWT Auth'],
+      description: 'A full-scale corporate operations management portal designed for high-concurrency client tracking, real-time analytics aggregation, and secure role-based workflow execution.',
+      points: [
+        'Delivered a full-stack corporate operations portal featuring role-based authentication, CRM dashboards, and client tracking.',
+        'Architected secure RESTful APIs connected to MongoDB, utilizing Redis caching to serve fast analytical metric summaries.'
+      ],
+      liveUrl: 'https://corecallsolutions.com',
+      gradient: 'from-cyan-500/20 via-blue-500/10 to-transparent'
+    }
+  ];
+
   return (
-   <div name='projects' className='w-full md:h-full text-gray-300 bg-[#293c42]'>
-    <div className='max-w-[1000px] mx-auto px-4 py-10 flex flex-col justify-center w-full h-full'>
-      <div className='pb-12'>
-        <p className='text-4xl font-bold text-center'>
-          Projects
-        </p>
-      </div>
-   <div className='grid sm:grid-cols-1 md:grid-cols-1 gap-y-14'>
+    <div name="projects" className="w-full py-20 bg-gradient-to-b from-[#0a111c] via-[#0d1726] to-[#0e1726] text-white">
+      <div className="max-w-[1100px] mx-auto px-6 flex flex-col justify-center w-full h-full">
 
+        {/* Section Header */}
+        <div className="text-center pb-12">
+          <p className="text-sm uppercase tracking-widest text-emerald-400 font-semibold">
+            Featured Portfolio
+          </p>
+          <h2 className="text-3xl sm:text-4xl font-extrabold text-white mt-1">
+            Featured Projects
+          </h2>
+          <p className="text-slate-400 text-sm max-w-xl mx-auto mt-2">
+            Selected full-stack web applications engineering resilient backends, responsive user interfaces, and automated cloud workflows.
+          </p>
+          <div className="w-20 h-1 bg-gradient-to-r from-emerald-400 to-cyan-500 mx-auto mt-3 rounded-full"></div>
+        </div>
 
-   <div className='grid sm:grid-cols-1 md:grid-cols-2'>
-         <div>
-          <img src={romofyi} className='h-full rounded-t-md sm:rounded-l-md rounded-r-none'  />
-         </div>
+        {/* Projects Showcase */}
+        <div className="space-y-16">
+          {projects.map((project, index) => (
+            <div
+              key={index}
+              className="bg-slate-900/90 border border-slate-800 hover:border-slate-700/80 rounded-3xl overflow-hidden shadow-2xl transition-all duration-300 hover:shadow-cyan-950/30 grid grid-cols-1 lg:grid-cols-12 gap-0 group"
+            >
+              {/* Image Preview Side */}
+              <div className="lg:col-span-6 p-6 sm:p-8 flex flex-col justify-center bg-slate-950/60 relative overflow-hidden">
+                <div className={`absolute inset-0 bg-gradient-to-br ${project.gradient} opacity-50`}></div>
 
-      <div className='bg-gray-400 rounded-b-md sm:rounded-r-md rounded-l-none py-4'  >
-      <h1 className='text-2xl py-4 text-center font-bold text-black tracking-wider'>Romofyi</h1>
-       <h3 className='sm:text-1xl py-4 text-center font-bold text-amber-800 tracking-wider'>
-        Tech Stack: React Js, Redux,Node Js, Express Js, MongoDB Chakra UI
-      </h3>
-      <p className='text-justify px-4 text-black'>This is a e-commerce website, where users can log in or sign up, explore products, checkout and can do much more in this project.</p>
-      <div className='pt-8 flex justify-around'>
-        <a href='https://romofyi.netlify.app/' target="_blank">
-          <button className='text-center rounded-lg px-4 py-3 m-2 bg-[#5a85d3] text-white font-bold text-md'>
-            Deploy
-          </button>
-        </a>
-        <a href='https://github.com/shabazalimalik69/Romofyi_Project' target="_blank">
-          <button className='text-center rounded-lg px-4 py-3 m-2 bg-[#5a85d3] text-white font-bold text-md'>
-            GitHub
-          </button>
-        </a>
-      </div>
-      </div>
-     </div>
+                {/* Browser Mockup Top Bar */}
+                <div className="relative z-10 bg-slate-800/90 rounded-t-xl px-4 py-2.5 flex items-center gap-2 border border-slate-700/80">
+                  <div className="w-3 h-3 rounded-full bg-red-500/80"></div>
+                  <div className="w-3 h-3 rounded-full bg-yellow-500/80"></div>
+                  <div className="w-3 h-3 rounded-full bg-green-500/80"></div>
+                  <span className="ml-2 text-xs text-slate-400 font-mono truncate">
+                    {project.title.toLowerCase().replace(/\s+/g, '')}.app
+                  </span>
+                </div>
 
-      <div className='grid sm:grid-cols-1 md:grid-cols-2'>
-         <div>
-          <img src={homedecor} className='h-full rounded-t-md sm:rounded-l-md rounded-r-none'  />
-         </div>
+                {/* Screenshot */}
+                <div className="relative z-10 rounded-b-xl overflow-hidden border-x border-b border-slate-700/80 shadow-2xl bg-slate-900">
+                  <img
+                    src={project.image}
+                    alt={project.title}
+                    className="w-full h-auto object-cover group-hover:scale-105 transition-transform duration-500"
+                  />
+                </div>
+              </div>
 
-      <div className='bg-gray-400 rounded-b-md sm:rounded-r-md rounded-l-none py-4'  >
-      <h1 className='text-2xl py-4 text-center font-bold text-black tracking-wider'>HomeDecor-Clone</h1>
-       <h3 className='sm:text-1xl py-4 text-center font-bold text-amber-800 tracking-wider'>
-        Tech Stack: React Js, Redux,Node Js, Express Js, MongoDB Chakra UI
-      </h3>
-      <p className='text-justify px-4 text-black'>HomeDecor is a website where user can search for home decoration products like furniture, kids toys and many more</p>
-      <div className='pt-8 flex justify-around'>
-        <a href='https://homedecorfurniture.vercel.app/' target="_blank">
-          <button className='text-center rounded-lg px-4 py-3 m-2 bg-[#5a85d3] text-white font-bold text-md'>
-            Deploy
-          </button>
-        </a>
-        <a href='https://github.com/VijaySingh8650/instinctive-start-5063' target="_blank">
-          <button className='text-center rounded-lg px-4 py-3 m-2 bg-[#5a85d3] text-white font-bold text-md'>
-            GitHub
-          </button>
-        </a>
-      </div>
-      </div>
-     </div>
-    
+              {/* Project Details Side */}
+              <div className="lg:col-span-6 p-6 sm:p-8 flex flex-col justify-between">
+                <div>
+                  <div className="flex items-center justify-between gap-3 mb-2">
+                    <span className="px-3 py-1 bg-emerald-500/10 text-emerald-400 text-xs font-semibold rounded-full border border-emerald-500/20">
+                      {project.badge}
+                    </span>
+                    <span className="text-xs text-cyan-400 font-semibold flex items-center gap-1">
+                      <FaBolt className="text-xs" /> Live Architecture
+                    </span>
+                  </div>
 
-      <div className='grid sm:grid-cols-1 md:grid-cols-2'>
-         <div>
-          <img src={harvest} className='h-full rounded-t-md sm:rounded-l-md rounded-r-none'  />
-         </div>
+                  <h3 className="text-2xl sm:text-3xl font-bold text-white mt-2">
+                    {project.title}
+                  </h3>
+                  <h4 className="text-sm font-medium text-slate-400 mb-4">
+                    {project.subtitle}
+                  </h4>
 
-      <div className='bg-gray-400 rounded-b-md sm:rounded-r-md rounded-l-none py-4'  >
-      <h1 className='text-2xl py-4 text-center font-bold text-black tracking-wider'>Harvest-Clone</h1>
-       <h3 className='sm:text-1xl py-4 text-center font-bold text-amber-800 tracking-wider'>
-        Tech Stack: React Js, Redux,Node Js, Express Js, MongoDB Chakra UI
-      </h3>
-      <p className='text-justify px-4 text-black'>Harvest is a time-tracking app for freelancers that includes invoicing, expensing, and team management features....</p>
-      <div className='pt-8 flex justify-around'>
-        <a href='https://ourharvestclone.netlify.app/' target="_blank">
-          <button className='text-center rounded-lg px-4 py-3 m-2 bg-[#5a85d3] text-white font-bold text-md'>
-            Deploy
-          </button>
-        </a>
-        <a href='https://github.com/shabazalimalik69/afraid-shoe-4639' target="_blank">
-          <button className='text-center rounded-lg px-4 py-3 m-2 bg-[#5a85d3] text-white font-bold text-md'>
-            GitHub
-          </button>
-        </a>
-      </div>
-      </div>
-     </div>
-      
-     <div className='grid sm:grid-cols-1 md:grid-cols-2'>
-         <div>
-          <img src={usermanagement} className='h-full rounded-t-md sm:rounded-l-md rounded-r-none'  />
-         </div>
+                  <p className="text-slate-300 text-sm leading-relaxed mb-5">
+                    {project.description}
+                  </p>
 
-      <div className='bg-gray-400 rounded-b-md sm:rounded-r-md rounded-l-none py-4'  >
-      <h1 className='text-2xl py-4 text-center font-bold text-black tracking-wider'>UserManagement</h1>
-       <h3 className='sm:text-1xl py-4 text-center font-bold text-amber-800 tracking-wider'>
-        Tech Stack: React Js, Redux,Node Js, Express Js, MongoDB, Chakra UI
-      </h3>
-      <p className='text-justify px-4 text-black'>This is a small project where user can create account and then login. After login, a user will be redirected to the homepage. where user can create, update, delete their details.</p>
-      <div className='pt-8 flex justify-around'>
-        <a href='https://fastidious-narwhal-38c0e0.netlify.app/signin' target="_blank">
-          <button className='text-center rounded-lg px-4 py-3 m-2 bg-[#5a85d3] text-white font-bold text-md'>
-            Deploy
-          </button>
-        </a>
-        <a href='https://github.com/shabazalimalik69/User_Management_Project' target="_blank">
-          <button className='text-center rounded-lg px-4 py-3 m-2 bg-[#5a85d3] text-white font-bold text-md'>
-            GitHub
-          </button>
-        </a>
-      </div>
-      </div>
-     </div>
+                  {/* Bullet Points from Resume */}
+                  <div className="space-y-2.5 mb-6">
+                    {project.points.map((pt, pIdx) => (
+                      <div key={pIdx} className="flex items-start gap-2.5 text-xs sm:text-sm text-slate-300 leading-normal">
+                        <FaCheckCircle className="text-emerald-400 mt-1 flex-shrink-0 text-xs" />
+                        <span>{pt}</span>
+                      </div>
+                    ))}
+                  </div>
+                </div>
 
+                {/* Tech Tags & CTAs */}
+                <div>
+                  <div className="flex flex-wrap gap-1.5 pt-4 border-t border-slate-800">
+                    {project.techStack.map((tech, tIdx) => (
+                      <span
+                        key={tIdx}
+                        className="px-2.5 py-1 bg-slate-800/80 text-slate-200 text-xs rounded-md border border-slate-700/50"
+                      >
+                        {tech}
+                      </span>
+                    ))}
+                  </div>
 
-     
-      <div className='grid sm:grid-cols-1 md:grid-cols-2'>
-         <div>
-          <img src={easybuy} className='h-full rounded-t-md sm:rounded-l-md rounded-r-none'  />
-         </div>
-      <div className='bg-gray-400 rounded-b-md sm:rounded-r-md rounded-l-none py-4'>
-      <h1 className='text-2xl py-4 text-center font-bold text-black tracking-wider'> easyBuy </h1>
-       <h3 className='text-1xl py-4 text-center font-bold text-amber-800 tracking-wider'>
-       Tech Stack: HTML5, CSS3, Vanilla JS
-      </h3>
-      
-      <p className='text-justify px-4 text-black'>easyBuy is a ecommerce website, where a user can purchase different products like mobile accessories, jewellery related products, laptops, etc</p>
-      <div className='pt-8 flex justify-around'>
-        <a href='https://easybuy123.netlify.app/html/home.html' target="_blank">
-          <button className='text-center rounded-lg px-4 py-3 m-2 bg-[#5a85d3] text-white font-bold text-md'>
-            Deploy
-          </button>
-        </a>
-        <a href='https://github.com/shabazalimalik69/easyBuy' target="_blank">
-          <button className='text-center rounded-lg px-4 py-3 m-2 bg-[#5a85d3] text-white font-bold text-md'>
-            GitHub
-          </button>
-        </a>
-      </div>
-      </div>
-      </div>
+                  <div className="mt-6 flex items-center gap-4">
+                    {project.liveUrl && project.liveUrl !== '#' ? (
+                      <a
+                        href={project.liveUrl}
+                        target="_blank"
+                        rel="noreferrer"
+                        className="inline-flex items-center gap-2 px-5 py-2.5 rounded-lg text-xs sm:text-sm font-semibold text-slate-950 bg-emerald-400 hover:bg-emerald-300 shadow-lg shadow-emerald-500/20 transition-all duration-300"
+                      >
+                        <span>Live Project</span>
+                        <FaExternalLinkAlt className="text-xs" />
+                      </a>
+                    ) : (
+                      <span className="inline-flex items-center gap-2 px-5 py-2.5 rounded-lg text-xs sm:text-sm font-semibold text-emerald-400 bg-emerald-500/10 border border-emerald-500/30">
+                        <span>Production Deployed</span>
+                      </span>
+                    )}
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          ))}
+        </div>
 
       </div>
     </div>
-   </div>   
-   
-  )
-}
+  );
+};
 
-export default Projects
+export default Projects;
