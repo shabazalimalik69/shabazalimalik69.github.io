@@ -1,32 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.5c444c47.css",
-    "main.js": "/static/js/main.ae04733b.js",
-    "static/media/Shabaz_Malik_Resume.pdf": "/static/media/Shabaz_Malik_Resume.cc7dc387e5b3c0690dd8.pdf",
-    "static/media/homedecor.jpg": "/static/media/homedecor.622e1572ef879eb3b182.jpg",
-    "static/media/easybuy1.jpg": "/static/media/easybuy1.9c248a9814e0eefbc707.jpg",
-    "static/media/harvest.jpg": "/static/media/harvest.3e54ebad5fa228e1c217.jpg",
-    "static/media/romofyi.jpeg": "/static/media/romofyi.685821939c00ef64a5c8.jpeg",
-    "static/media/twitter.png": "/static/media/twitter.b413b75b86f226240110.png",
-    "static/media/phone.png": "/static/media/phone.bfe3f104eb40c25be2f5.png",
-    "static/media/usermanegement.jpg": "/static/media/usermanegement.ef758f42f21395d87107.jpg",
-    "static/media/communication.png": "/static/media/communication.07c9a3c166bd1ad6e686.png",
-    "static/media/react.png": "/static/media/react.0cf951a69d8e58f83f9d.png",
-    "static/media/node.png": "/static/media/node.952a9ea986dcfa5229ad.png",
-    "static/media/mongo.png": "/static/media/mongo.2a1528ddc31d4ce8518d.png",
-    "static/media/gmail.png": "/static/media/gmail.ec673c662063673a22ad.png",
-    "static/media/html.png": "/static/media/html.2ba4fabc69a89a8f71e6.png",
-    "static/media/backend.png": "/static/media/backend.6729f26d5f0f63d4619e.png",
-    "static/media/css.png": "/static/media/css.69a82c2d9e45c933a9cb.png",
-    "static/media/postman.png": "/static/media/postman.3ac4d7844e6d9a8023da.png",
-    "static/media/redux.png": "/static/media/redux.b3b939c66aecf7d53967.png",
-    "static/media/javascript.png": "/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
+    "main.css": "/static/css/main.a93ed920.css",
+    "main.js": "/static/js/main.94f0022b.js",
+    "static/media/tourzakashmir.png": "/static/media/tourzakashmir.a4a82d2cb1bcf323724f.png",
+    "static/media/corecallsolutions.png": "/static/media/corecallsolutions.be75b2424c6f6321d18b.png",
+    "static/media/Shabaz_Malik_Resume.pdf": "/static/media/Shabaz_Malik_Resume.12557d5cc6d3198457a6.pdf",
     "index.html": "/index.html",
-    "main.5c444c47.css.map": "/static/css/main.5c444c47.css.map",
-    "main.ae04733b.js.map": "/static/js/main.ae04733b.js.map"
+    "main.a93ed920.css.map": "/static/css/main.a93ed920.css.map",
+    "main.94f0022b.js.map": "/static/js/main.94f0022b.js.map"
   },
   "entrypoints": [
-    "static/css/main.5c444c47.css",
-    "static/js/main.ae04733b.js"
+    "static/css/main.a93ed920.css",
+    "static/js/main.94f0022b.js"
   ]
 }
