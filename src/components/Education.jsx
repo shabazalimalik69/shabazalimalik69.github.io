@@ -4,7 +4,7 @@ import { FaGraduationCap, FaAward, FaMapMarkerAlt } from 'react-icons/fa';
 const Education = () => {
   const educationList = [
     {
-      degree: 'Bachelor of Engineering (B.E.)',
+      degree: 'Bachelor of Technology (B.Tech)',
       institution: 'Subharti Institute of Technology & Engineering',
       location: 'Meerut, Uttar Pradesh',
       icon: <FaGraduationCap className="text-2xl text-emerald-400" />,
@@ -22,14 +22,14 @@ const Education = () => {
   return (
     <div name="education" className="w-full py-20 bg-[#0b1320] text-slate-200">
       <div className="max-w-[1100px] mx-auto px-6 flex flex-col justify-center w-full h-full">
-        
+
         {/* Section Header */}
         <div className="text-center pb-12">
           <p className="text-sm uppercase tracking-widest text-emerald-400 font-semibold">
             Background
           </p>
           <h2 className="text-3xl sm:text-4xl font-extrabold text-white mt-1">
-            Education &amp; Credentials
+            Education
           </h2>
           <div className="w-20 h-1 bg-gradient-to-r from-emerald-400 to-cyan-500 mx-auto mt-3 rounded-full"></div>
         </div>
